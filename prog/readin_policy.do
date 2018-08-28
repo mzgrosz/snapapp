@@ -1,1 +1,0 @@
-/*This file will read in the SNAP policy file that USDA publishes */
