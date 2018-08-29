@@ -62,16 +62,14 @@ gen ysince=year-onlineapp_min
 local pre=5
 local post=3
 *create the "loaded" variables for that range
-cap drop load_* sample
-gen load_pre=ysince<-`pre'
-gen load_pos=ysince>`post'
+cap drop sample
 gen sample=1
 	replace sample=0 if onlineapp_min>(2011-`post')
 	
 	
 	
 	*no trends
-	areg ln_prgnum  onapp_pr1-onapp_pr`pre' onapp_po1-onapp_po`post' load_pos load_pre [weight=total_pop] if sample==1 & year>1996, cluster(fips) absorb(fips)
+	areg ln_prgnum  onapp_p*  [weight=total_pop] if sample==1 & year>1996, cluster(fips) absorb(fips)
 		mat a=0,0,0
 		forvalues y=1/`pre'{
 			mat z=-`y',_b[onapp_pr`y'], _se[onapp_pr`y']
@@ -83,7 +81,7 @@ gen sample=1
 			}
 		mat a_notr_`pre'_`post'=a
 	*state trends
-	areg ln_prgnum statetr* onapp_pr1-onapp_pr`pre' onapp_po1-onapp_po`post' load_pos load_pre [weight=total_pop] if sample==1 & year>1996, cluster(fips) absorb(fips)
+	areg ln_prgnum statetr* onapp_p*  [weight=total_pop] if sample==1 & year>1996, cluster(fips) absorb(fips)
 		mat a=0,0,0
 		forvalues y=1/`pre'{
 			mat z=-`y',_b[onapp_pr`y'], _se[onapp_pr`y']
@@ -96,7 +94,7 @@ gen sample=1
 		mat a_sttr_`pre'_`post'=a
 
 	*county trends
-	areg ln_prgnum ctytr* onapp_pr1-onapp_pr`pre' onapp_po1-onapp_po`post' load_pos load_pre [weight=total_pop] if sample==1 & year>1996, cluster(fips) absorb(fips)
+	areg ln_prgnum ctytr* onapp_p*  [weight=total_pop] if sample==1 & year>1996, cluster(fips) absorb(fips)
 		mat a=0,0,0
 		forvalues y=1/`pre'{
 			mat z=-`y',_b[onapp_pr`y'], _se[onapp_pr`y']
@@ -107,7 +105,8 @@ gen sample=1
 			mat a=a\z
 			}
 		mat a_cttr_`pre'_`post'=a
-		
+
+			
 		
 *SPIT OUT GRAPHS
 		foreach g in notr sttr cttr{
