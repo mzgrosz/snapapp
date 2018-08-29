@@ -81,4 +81,23 @@ tab year _merge
 
 drop if year >= 2012
 
+
+*Policy variables
+gen onlineapp_post=internet_app_annual>0 & internet_app_annual!=.
+	gen trashy=year if onlineapp_post==1
+		replace trashy=9999 if onlineapp_post!=1
+		bysort fips: egen onlineapp_minyear=min(trashy)
+		replace onlineapp_minyear=. if onlineapp_miny>3000
+		drop trashy
+gen onlineapp_ever=onlineapp_minyear>0 & onlineapp_minyear!=.
+forvalues y=1/20{
+	gen onapp_pr`y'=(year-onlineapp_minyear)==-`y' & onlineapp_ever==1
+	}
+forvalues y=1/9{
+	gen onapp_po`y'=(year-onlineapp_minyear)==`y' & onlineapp_ever==1
+	}
+
+
+
+
 save "$data/snap_paper_merged.dta", replace
