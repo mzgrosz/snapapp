@@ -67,7 +67,9 @@ gen sample=1
 	replace sample=0 if onlineapp_min>(2011-`post')
 	
 	
-	
+***************************************************
+*Only ever-adopters
+***************************************************	
 	*no trends
 	areg ln_prgnum  onapp_p*  [weight=total_pop] if sample==1 & year>1996, cluster(fips) absorb(fips)
 		mat a=0,0,0
@@ -105,21 +107,84 @@ gen sample=1
 			mat a=a\z
 			}
 		mat a_cttr_`pre'_`post'=a
+	*county trends and years
+	areg ln_prgnum i.year ctytr* onapp_p*  [weight=total_pop] if sample==1 & year>1996, cluster(fips) absorb(fips)
+		mat a=0,0,0
+		forvalues y=1/`pre'{
+			mat z=-`y',_b[onapp_pr`y'], _se[onapp_pr`y']
+			mat a=a\z
+			}
+		forvalues y=1/`post'{
+			mat z=`y',_b[onapp_po`y'], _se[onapp_po`y']
+			mat a=a\z
+			}
+		mat a_cttry_`pre'_`post'=a
+****************************************************************************************************
+*Include non-adopters
+****************************************************************************************************			
+	areg ln_prgnum  onapp_p*  [weight=total_pop] if (sample==1 | onlineapp_ever==0) & year>1996, cluster(fips) absorb(fips)
+		mat a=0,0,0
+		forvalues y=1/`pre'{
+			mat z=-`y',_b[onapp_pr`y'], _se[onapp_pr`y']
+			mat a=a\z
+			}
+		forvalues y=1/`post'{
+			mat z=`y',_b[onapp_po`y'], _se[onapp_po`y']
+			mat a=a\z
+			}
+		mat b_notr_`pre'_`post'=a
+	*state trends
+	areg ln_prgnum statetr* onapp_p*  [weight=total_pop] if (sample==1 | onlineapp_ever==0) & year>1996, cluster(fips) absorb(fips)
+		mat a=0,0,0
+		forvalues y=1/`pre'{
+			mat z=-`y',_b[onapp_pr`y'], _se[onapp_pr`y']
+			mat a=a\z
+			}
+		forvalues y=1/`post'{
+			mat z=`y',_b[onapp_po`y'], _se[onapp_po`y']
+			mat a=a\z
+			}
+		mat b_sttr_`pre'_`post'=a
 
-			
-		
+	*county trends
+	areg ln_prgnum ctytr* onapp_p*  [weight=total_pop] if (sample==1 | onlineapp_ever==0) & year>1996, cluster(fips) absorb(fips)
+		mat a=0,0,0
+		forvalues y=1/`pre'{
+			mat z=-`y',_b[onapp_pr`y'], _se[onapp_pr`y']
+			mat a=a\z
+			}
+		forvalues y=1/`post'{
+			mat z=`y',_b[onapp_po`y'], _se[onapp_po`y']
+			mat a=a\z
+			}
+		mat b_cttr_`pre'_`post'=a
+	*county trends and years
+	areg ln_prgnum i.year ctytr* onapp_p*  [weight=total_pop] if (sample==1 | onlineapp_ever==0) & year>1996, cluster(fips) absorb(fips)
+		mat a=0,0,0
+		forvalues y=1/`pre'{
+			mat z=-`y',_b[onapp_pr`y'], _se[onapp_pr`y']
+			mat a=a\z
+			}
+		forvalues y=1/`post'{
+			mat z=`y',_b[onapp_po`y'], _se[onapp_po`y']
+			mat a=a\z
+			}
+		mat b_cttry_`pre'_`post'=a
+
+****************************************************************************************		
 *SPIT OUT GRAPHS
-		foreach g in notr sttr cttr{
+		foreach h in a b{	
+		foreach g in notr sttr cttr cttry{
 		preserve
 		clear
-		svmat a_`g'_`pre'_`post', n(col)
+		svmat `h'_`g'_`pre'_`post', n(col)
 			rename (c1 c2 c3) (y b se)
 			gen u=b+1.96*se
 			gen l=b-1.96*se
 			sort y
 			scatter b u l y, connect(l l l) msymbol(o none none) yline(0) mcolor(gray) lcolor(gray gray gray) xlabel(-`pre'(1)`post') xscale(r(-`pre'(1)`post')) lpattern(solid dash dash) `figbacks' legend(off) ytitle("ln(SNAP Beneficiaries)") xtitle("Years Since Online Application")
-				graph export "$out/evstu_`g'_`pre'_`post'.eps", replace
+				graph export "$out/evstu_`h'_`g'_`pre'_`post'.eps", replace
 				restore
 				}
-		
+		}
 		
