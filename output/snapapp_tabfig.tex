@@ -30,8 +30,14 @@
 
 
 
-\title{Benefits in a SNAP: The Effects of the Online Application for Food Stamps Application}
-\author{Andrew Foote and Michel Grosz and}
+\title{Benefits in a SNAP: The Effects of the Online Application for Food Stamps}
+\author[1]{Andrew Foote}
+\author[2]{Michel Grosz}
+\author[3]{Stephanie Rennane}
+\author[4]{Somebody Else}
+\affil[1]{Census Bureau}
+\affil[2]{Abt Associates}
+\affil[3]{RAND Corporation}
 \date{\today\\  }
 
 
@@ -43,23 +49,31 @@
 
 \includegraphics{rolloutgraph}
 
+\begin{table}\caption{Main Effects of Post-Adoption on ln(beneficiaries)}
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\begin{tabular}{lcccc}\hline\hline
+A. All Counties\\\input{ddreg_pu_all}\\
+B. Adopting Counties\\\input{ddreg_pu_adop}\\
+C. All Counties, ln(+1)\\\input{ddreg_in0_all}\\
+D. Adopting Counties, ln(+1)\\\input{ddreg_in0_adop}\\
+Year FE&&X&X&X\\
+State FE&&&X&X\\
+State Trends&&&&X\\
+\hline\hline
+\end{tabular}
+\end{table}
+
+
+
 \begin{figure}\caption{Event Study Estimates}
 \begin{tabular}{cc}
 \includegraphics[scale=0.57]{evstu_a_notr_5_3}&\includegraphics[scale=0.57]{evstu_a_sttr_5_3}\\
-a) County Fixed Effects&b) County Fixed Effects and State Trends\\
-\includegraphics[scale=0.57]{evstu_a_cttr_5_3}&\includegraphics[scale=0.57]{evstu_a_cttr_5_3}\\
-c) County Fixed Effects and County Trends&d) County Fixed Effects and County Trends and Year Effects\\
+a) State FE&b) State FE and State Trends\\
+\includegraphics[scale=0.57]{evstu_a_cttry_5_3}&\includegraphics[scale=0.57]{evstu_b_cttry_5_3}\\
+c) State FE and State Trend and  Year FE&c) State FE and State Trend and  Year FE, All States\\
 \end{tabular}
 \end{figure}
 
 
-\begin{figure}\caption{Event Study Estimates}
-\begin{tabular}{cc}
-\includegraphics[scale=0.57]{evstu_b_notr_5_3}&\includegraphics[scale=0.57]{evstu_b_sttr_5_3}\\
-a) County Fixed Effects&b) County Fixed Effects and State Trends\\
-\includegraphics[scale=0.57]{evstu_b_cttr_5_3}&\includegraphics[scale=0.57]{evstu_b_cttr_5_3}\\
-c) County Fixed Effects and County Trends&d) County Fixed Effects and County Trends and Year Effects\\
-\end{tabular}
-\end{figure}
 
 \end{document}

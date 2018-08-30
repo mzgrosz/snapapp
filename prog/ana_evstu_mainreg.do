@@ -54,6 +54,7 @@ forvalues i=1/56{
 }
 
 gen ln_prgnum=ln(prgnum)
+	replace ln_prgnum=0 if ln_prgnum==.
 /*********************************************************
 Create the policy interaction
 **********************************************************/
@@ -71,7 +72,7 @@ gen sample=1
 *Only ever-adopters
 ***************************************************	
 	*no trends
-	areg ln_prgnum  onapp_p*  [weight=total_pop] if sample==1 & year>1996, cluster(fips) absorb(fips)
+	areg ln_prgnum  onapp_p*  [weight=total_pop] if onlineapp_ever==1 & year>1996, cluster(fips) absorb(state_)
 		mat a=0,0,0
 		forvalues y=1/`pre'{
 			mat z=-`y',_b[onapp_pr`y'], _se[onapp_pr`y']
@@ -83,7 +84,7 @@ gen sample=1
 			}
 		mat a_notr_`pre'_`post'=a
 	*state trends
-	areg ln_prgnum statetr* onapp_p*  [weight=total_pop] if sample==1 & year>1996, cluster(fips) absorb(fips)
+	areg ln_prgnum statetr* onapp_p*  [weight=total_pop] if onlineapp_ever==1 & year>1996, cluster(fips) absorb(state_)
 		mat a=0,0,0
 		forvalues y=1/`pre'{
 			mat z=-`y',_b[onapp_pr`y'], _se[onapp_pr`y']
@@ -95,8 +96,8 @@ gen sample=1
 			}
 		mat a_sttr_`pre'_`post'=a
 
-	*county trends
-	areg ln_prgnum ctytr* onapp_p*  [weight=total_pop] if sample==1 & year>1996, cluster(fips) absorb(fips)
+	/*county trends
+	areg ln_prgnum ctytr* onapp_p*  [weight=total_pop] if onlineapp_ever==1 & year>1996, cluster(fips) absorb(state_)
 		mat a=0,0,0
 		forvalues y=1/`pre'{
 			mat z=-`y',_b[onapp_pr`y'], _se[onapp_pr`y']
@@ -106,9 +107,9 @@ gen sample=1
 			mat z=`y',_b[onapp_po`y'], _se[onapp_po`y']
 			mat a=a\z
 			}
-		mat a_cttr_`pre'_`post'=a
-	*county trends and years
-	areg ln_prgnum i.year ctytr* onapp_p*  [weight=total_pop] if sample==1 & year>1996, cluster(fips) absorb(fips)
+		mat a_cttr_`pre'_`post'=a*/
+	*state trends and years
+	areg ln_prgnum i.year statetr* onapp_p*  [weight=total_pop] if onlineapp_ever==1 & year>1996, cluster(fips) absorb(state_)
 		mat a=0,0,0
 		forvalues y=1/`pre'{
 			mat z=-`y',_b[onapp_pr`y'], _se[onapp_pr`y']
@@ -122,7 +123,7 @@ gen sample=1
 ****************************************************************************************************
 *Include non-adopters
 ****************************************************************************************************			
-	areg ln_prgnum  onapp_p*  [weight=total_pop] if (sample==1 | onlineapp_ever==0) & year>1996, cluster(fips) absorb(fips)
+	areg ln_prgnum  onapp_p*  [weight=total_pop] if year>1996, cluster(fips) absorb(state_)
 		mat a=0,0,0
 		forvalues y=1/`pre'{
 			mat z=-`y',_b[onapp_pr`y'], _se[onapp_pr`y']
@@ -134,7 +135,7 @@ gen sample=1
 			}
 		mat b_notr_`pre'_`post'=a
 	*state trends
-	areg ln_prgnum statetr* onapp_p*  [weight=total_pop] if (sample==1 | onlineapp_ever==0) & year>1996, cluster(fips) absorb(fips)
+	areg ln_prgnum statetr* onapp_p*  [weight=total_pop] if  year>1996, cluster(fips) absorb(state_)
 		mat a=0,0,0
 		forvalues y=1/`pre'{
 			mat z=-`y',_b[onapp_pr`y'], _se[onapp_pr`y']
@@ -146,8 +147,8 @@ gen sample=1
 			}
 		mat b_sttr_`pre'_`post'=a
 
-	*county trends
-	areg ln_prgnum ctytr* onapp_p*  [weight=total_pop] if (sample==1 | onlineapp_ever==0) & year>1996, cluster(fips) absorb(fips)
+	/*county trends
+	areg ln_prgnum ctytr* onapp_p*  [weight=total_pop] if  year>1996, cluster(fips) absorb(state_)
 		mat a=0,0,0
 		forvalues y=1/`pre'{
 			mat z=-`y',_b[onapp_pr`y'], _se[onapp_pr`y']
@@ -157,9 +158,9 @@ gen sample=1
 			mat z=`y',_b[onapp_po`y'], _se[onapp_po`y']
 			mat a=a\z
 			}
-		mat b_cttr_`pre'_`post'=a
-	*county trends and years
-	areg ln_prgnum i.year ctytr* onapp_p*  [weight=total_pop] if (sample==1 | onlineapp_ever==0) & year>1996, cluster(fips) absorb(fips)
+		mat b_cttr_`pre'_`post'=a*/
+	*state trends and years
+	areg ln_prgnum i.year statetr* onapp_p*  [weight=total_pop] if year>1996, cluster(fips) absorb(state_)
 		mat a=0,0,0
 		forvalues y=1/`pre'{
 			mat z=-`y',_b[onapp_pr`y'], _se[onapp_pr`y']
@@ -174,7 +175,7 @@ gen sample=1
 ****************************************************************************************		
 *SPIT OUT GRAPHS
 		foreach h in a b{	
-		foreach g in notr sttr cttr cttry{
+		foreach g in notr sttr  cttry{
 		preserve
 		clear
 		svmat `h'_`g'_`pre'_`post', n(col)
