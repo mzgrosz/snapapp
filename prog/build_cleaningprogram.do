@@ -64,8 +64,8 @@ tempfile policy
 save `policy', replace
 
 
-use "$data/county_snap_longfile.dta", clear
-
+use "$data/snappdata_clean.dta", clear
+	drop _merge st
 sort fips year 
 merge fips year using `othervars'
 
@@ -78,8 +78,6 @@ sort state_fips year
 merge state_fips year using `policy'
 
 tab year _merge 
-
-drop if year >= 2012
 
 
 *Policy variables
