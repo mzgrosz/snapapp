@@ -1,5 +1,5 @@
 local n=4
-
+ 
 *andrew work
 if `n' == 1 {
 	global data "H:\ssdi" 
