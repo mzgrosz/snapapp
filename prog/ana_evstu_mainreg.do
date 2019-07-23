@@ -10,7 +10,7 @@ if `n' == 1 {
 *andrew home
 if `n' == 3 { 
 	global dir "C:\Users\Andrew Foote.AFOOTE\Google Drive\SSDIapps" 
-	gl data "${dir}\data"
+	gl data "${dir}\data" 
 	gl logs "${dir}\logs"
 	gl graphs "${dir}\graphs"
 	gl out "${dir}\output"
@@ -86,13 +86,14 @@ gen onapp_loadpre=0
 *****************
 *Regressions
 *****************
-
+gen one=1
+foreach weight in one total_pop{
 foreach out in $outlist{	
 ***************************************************
 *Only ever-adopters
 ***************************************************	
 	*nothing
-	reg ln_`out'  onapp_l* onapp_pr1-onapp_pr`pre' onapp_po1-onapp_po`post'  [weight=total_pop] if onlineapp_ever==1 & year>1996, cluster(fips) 
+	reg ln_`out'  onapp_p*   [weight=`weight'] if onlineapp_ever==1 & year>1996, cluster(fips) 
 		mat a=0,0,0
 		forvalues y=1/`pre'{
 			mat z=-`y',_b[onapp_pr`y'], _se[onapp_pr`y']
@@ -102,9 +103,9 @@ foreach out in $outlist{
 			mat z=`y',_b[onapp_po`y'], _se[onapp_po`y']
 			mat a=a\z
 			}
-		mat a_notr_`pre'_`post'=a
+		mat a`weight'_notr_`pre'_`post'=a
 	*year
-	reg ln_`out' i.year onapp_l* onapp_pr1-onapp_pr`pre' onapp_po1-onapp_po`post'  [weight=total_pop] if onlineapp_ever==1 & year>1996, cluster(fips) 
+	reg ln_`out' i.year onapp_p*   [weight=`weight'] if onlineapp_ever==1 & year>1996, cluster(fips) 
 		mat a=0,0,0
 		forvalues y=1/`pre'{
 			mat z=-`y',_b[onapp_pr`y'], _se[onapp_pr`y']
@@ -114,9 +115,9 @@ foreach out in $outlist{
 			mat z=`y',_b[onapp_po`y'], _se[onapp_po`y']
 			mat a=a\z
 			}
-		mat a_year_`pre'_`post'=a		
+		mat a`weight'_year_`pre'_`post'=a		
 	*year+county FE
-	areg ln_`out' i.year onapp_l* onapp_pr1-onapp_pr`pre' onapp_po1-onapp_po`post'  [weight=total_pop] if onlineapp_ever==1 & year>1996, cluster(fips) absorb(fips)
+	areg ln_`out' i.year onapp_p*   [weight=`weight'] if onlineapp_ever==1 & year>1996, cluster(fips) absorb(fips)
 		mat a=0,0,0
 		forvalues y=1/`pre'{
 			mat z=-`y',_b[onapp_pr`y'], _se[onapp_pr`y']
@@ -126,9 +127,9 @@ foreach out in $outlist{
 			mat z=`y',_b[onapp_po`y'], _se[onapp_po`y']
 			mat a=a\z
 			}
-		mat a_yrcf_`pre'_`post'=a
+		mat a`weight'_yrcf_`pre'_`post'=a
 	*year+county FE+state trend
-	areg ln_`out' i.year statetr* onapp_l* onapp_pr1-onapp_pr`pre' onapp_po1-onapp_po`post'  [weight=total_pop] if onlineapp_ever==1 & year>1996, cluster(fips) absorb(fips)
+	areg ln_`out' i.year statetr* onapp_p*   [weight=`weight'] if onlineapp_ever==1 & year>1996, cluster(fips) absorb(fips)
 		mat a=0,0,0
 		forvalues y=1/`pre'{
 			mat z=-`y',_b[onapp_pr`y'], _se[onapp_pr`y']
@@ -138,9 +139,9 @@ foreach out in $outlist{
 			mat z=`y',_b[onapp_po`y'], _se[onapp_po`y']
 			mat a=a\z
 			}
-		mat a_yrcfsttr_`pre'_`post'=a
+		mat a`weight'_yrcfsttr_`pre'_`post'=a
 	*year+county FE+county trend
-	areg ln_`out' i.year ctytr* onapp_l* onapp_pr1-onapp_pr`pre' onapp_po1-onapp_po`post'  [weight=total_pop] if onlineapp_ever==1 & year>1996, cluster(fips) absorb(fips)
+	areg ln_`out' i.year ctytr* onapp_p*   [weight=`weight'] if onlineapp_ever==1 & year>1996, cluster(fips) absorb(fips)
 		mat a=0,0,0
 		forvalues y=1/`pre'{
 			mat z=-`y',_b[onapp_pr`y'], _se[onapp_pr`y']
@@ -150,22 +151,21 @@ foreach out in $outlist{
 			mat z=`y',_b[onapp_po`y'], _se[onapp_po`y']
 			mat a=a\z
 			}
-		mat a_yrcfcttr_`pre'_`post'=a
+		mat a`weight'_yrcfcttr_`pre'_`post'=a
+		
 ****************************************************************************************		
 *SPIT OUT GRAPHS
-		foreach h in a{	
 		foreach g in notr year yrcf yrcfsttr yrcfcttr{
 		preserve
 		clear
-		svmat `h'_`g'_`pre'_`post', n(col)
+		svmat a`weight'_`g'_`pre'_`post', n(col)
 			rename (c1 c2 c3) (y b se)
 			gen u=b+1.96*se
 			gen l=b-1.96*se
 			sort y
 			scatter b u l y, connect(l l l) msymbol(o none none) yline(0) mcolor(gray) lcolor(gray gray gray) xlabel(-`pre'(1)`post') xscale(r(-`pre'(1)`post')) lpattern(solid dash dash) `figbacks' legend(off) ytitle("ln(`out')") xtitle("Years Since Online Application")
-				graph export "$out/evstu_`out'_`h'_`g'_`pre'_`post'.eps", replace
+				graph export "$out/evstu_`out'_`weight'_`g'_`pre'_`post'.eps", replace
 				restore
 				}
 		}
 		}
-		
