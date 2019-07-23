@@ -19,16 +19,14 @@ if `n' == 3 {
 
 * michel
 if `n' == 4 {
-	gl dir = "/home/users/mgrosz.AD3/snapapp"
-	gl data "${dir}/data"
-	gl logs "${dir}/logs"
-	gl out "${dir}/output"
+	gl dir = "H:\snapapp"
+	gl data "${dir}\data"
+	gl logs "${dir}\logs"
+	gl out "${dir}\output"
 }	
 
-
 cd $dir
-cd ../ssdinet/data
-use "dataprepped_v6.dta", clear
+use "$data\dataprepped_v6.dta", clear
 set more off
 keep fips year lau_* total_* access_1 access_2
 
@@ -44,8 +42,6 @@ save `othervars'
 
 use "$data/snap_policy.dta", clear
 tostring yearmonth, replace
-	gen year=substr(yearmonth,1,4)
-	gen month=substr(yearmonth,5,2)
 	destring year, replace
 	destring month, replace
 drop state_pc statename yearmonth 

@@ -19,10 +19,10 @@ if `n' == 3 {
 
 * michel
 if `n' == 4 {
-	gl dir = "/home/users/mgrosz.AD3/snapapp"
-	gl data "${dir}/data"
-	gl logs "${dir}/logs"
-	gl out "${dir}/output"
+	gl dir = "H:\snapapp"
+	gl data "${dir}\data"
+	gl logs "${dir}\logs"
+	gl out "${dir}\output"
 }	
 
 *steph local;

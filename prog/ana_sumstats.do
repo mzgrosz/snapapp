@@ -17,14 +17,14 @@ if `n' == 3 {
 } 
 
 
+
 * michel
 if `n' == 4 {
-	gl dir = "/home/users/mgrosz.AD3/snapapp"
-	gl data "${dir}/data"
-	gl logs "${dir}/logs"
-	gl out "${dir}/output"
+	gl dir = "H:\snapapp"
+	gl data "${dir}\data"
+	gl logs "${dir}\logs"
+	gl out "${dir}\output"
 }	
-
 
 local figbacks "plotregion(fcolor(white)) graphregion(fcolor(white) lwidth(large)) bgcolor(white)"
 set scheme s1color
@@ -37,7 +37,7 @@ keep if year>1989 & year<2017
 	replace snap_h_tot=snap_h_tot/100000
 
 collapse(sum)onlineapp_post snap_h_tot bea_snap, by(year)
-twoway(scatter online year, c(l) yaxis(2))||(scatter snap  year, c(1) yaxis(1)), `figbacks' ytitle("SNAP Households (100,000) ", axis(1)) ytitle("Counties with Online Application", axis(2)) legend(order(2 "SNAP Households" 1 "Counties with Online Application"))
-	graph export $out/rolloutgraph.eps, replace
+twoway(scatter online year, c(l) yaxis(2) msymbol(O))||(scatter snap  year, msymbol(Oh) c(1) yaxis(1)), `figbacks' ytitle("SNAP Households (100,000) ", axis(1)) ytitle("Counties with Online Application", axis(2)) legend(order(2 "SNAP Households" 1 "Counties with Online Application"))
+	graph export $out\rolloutgraph.eps, replace
 	
 	
