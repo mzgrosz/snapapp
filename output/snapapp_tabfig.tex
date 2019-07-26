@@ -47,7 +47,7 @@
 \begin{document}
 \maketitle
 
-\includegraphics{rolloutgraph}
+\includegraphics{tabfig/rolloutgraph}
 
 %\begin{table}\caption{Main Effects of Post-Adoption on ln(beneficiaries)}
 %\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
@@ -65,20 +65,24 @@
 
 
 
-\begin{figure}\caption{Event Study Estimates, BEA count, unweighted}
+\begin{figure}\caption{Event Study Estimates, BEA count}
 \begin{tabular}{cc}
-\includegraphics[scale=0.57]{evstu_bea_snap_one_notr_5_3}&\includegraphics[scale=0.57]{evstu_bea_snap_one_year_5_3}\\
-a) No controls&b) Year FE\\
-\includegraphics[scale=0.57]{evstu_bea_snap_one_yrcf_5_3}&\includegraphics[scale=0.57]{evstu_bea_snap_one_yrcfsttr_5_3}\\
-c) Year FE and County FE&d) Year FE, County FE, County Trends\\
+
+\includegraphics[scale=0.57]{tabfig/evstu_bea_snap_one_yrcf_5_3}&\includegraphics[scale=0.57]{tabfig/evstu_bea_snap_one_yrcfsttr_5_3}\\
+a) Year FE and County FE&b) Year FE, County FE+Trends\\
+\includegraphics[scale=0.57]{tabfig/evstu_bea_snap_one_yrcfcttru_5_3}&\includegraphics[scale=0.57]{tabfig/evstu_bea_snap_total_pop_yrcfcttru_5_3}\\
+c) Year FE, County FE+Trends, UI control& c) Year FE, County FE + Trends, UI control, weighted\\
+
+\includegraphics[scale=0.57]{tabfig/evstu_bea_snap_one_yrcfcttrunor_5_3}\\
+e) Year FE, County FE + Trends, UI control, no Recession\\
 \end{tabular}
 \end{figure}
 
 \begin{figure}\caption{Event Study Estimates, Households, unweighted}
 \begin{tabular}{cc}
-\includegraphics[scale=0.57]{evstu_snap_h_tot_one_notr_5_3}&\includegraphics[scale=0.57]{evstu_snap_h_tot_one_year_5_3}\\
+\includegraphics[scale=0.57]{tabfig/evstu_snap_h_tot_one_notr_5_3}&\includegraphics[scale=0.57]{tabfig/evstu_snap_h_tot_one_year_5_3}\\
 a) No controls&b) Year FE\\
-\includegraphics[scale=0.57]{evstu_snap_h_tot_one_yrcf_5_3}&\includegraphics[scale=0.57]{evstu_snap_h_tot_one_yrcfsttr_5_3}\\
+\includegraphics[scale=0.57]{tabfig/evstu_snap_h_tot_one_yrcf_5_3}&\includegraphics[scale=0.57]{tabfig/evstu_snap_h_tot_one_yrcfsttr_5_3}\\
 c) Year FE and County FE&d) Year FE, County FE, County Trends\\
 \end{tabular}
 \end{figure}
@@ -86,18 +90,18 @@ c) Year FE and County FE&d) Year FE, County FE, County Trends\\
 
 \begin{figure}\caption{Event Study Estimates, Individuals, unweighted}
 \begin{tabular}{cc}
-\includegraphics[scale=0.57]{evstu_snap_p_tot_one_notr_5_3}&\includegraphics[scale=0.57]{evstu_snap_p_tot_one_year_5_3}\\
+\includegraphics[scale=0.57]{tabfig/evstu_snap_p_tot_one_notr_5_3}&\includegraphics[scale=0.57]{tabfig/evstu_snap_p_tot_one_year_5_3}\\
 a) No controls&b) Year FE\\
-\includegraphics[scale=0.57]{evstu_snap_p_tot_one_yrcf_5_3}&\includegraphics[scale=0.57]{evstu_snap_p_tot_one_yrcfsttr_5_3}\\
+\includegraphics[scale=0.57]{tabfig/evstu_snap_p_tot_one_yrcf_5_3}&\includegraphics[scale=0.57]{tabfig/evstu_snap_p_tot_one_yrcfsttr_5_3}\\
 c) Year FE and County FE&d) Year FE, County FE, County Trends\\
 \end{tabular}
 \end{figure}
 
 \begin{figure}\caption{Event Study Estimates, Benefits, unweighted}
 \begin{tabular}{cc}
-\includegraphics[scale=0.57]{evstu_snap_t_one_notr_5_3}&\includegraphics[scale=0.57]{evstu_snap_t_one_year_5_3}\\
+\includegraphics[scale=0.57]{tabfig/evstu_snap_t_one_notr_5_3}&\includegraphics[scale=0.57]{tabfig/evstu_snap_t_one_year_5_3}\\
 a) No controls&b) Year FE\\
-\includegraphics[scale=0.57]{evstu_snap_t_one_yrcf_5_3}&\includegraphics[scale=0.57]{evstu_snap_t_one_yrcfsttr_5_3}\\
+\includegraphics[scale=0.57]{tabfig/evstu_snap_t_one_yrcf_5_3}&\includegraphics[scale=0.57]{tabfig/evstu_snap_t_one_yrcfsttr_5_3}\\
 c) Year FE and County FE&d) Year FE, County FE, County Trends\\
 \end{tabular}
 \end{figure}
@@ -108,18 +112,18 @@ c) Year FE and County FE&d) Year FE, County FE, County Trends\\
 
 \begin{figure}\caption{Event Study Estimates, BEA count, weighted}
 \begin{tabular}{cc}
-\includegraphics[scale=0.57]{evstu_bea_snap_total_pop_notr_5_3}&\includegraphics[scale=0.57]{evstu_bea_snap_total_pop_year_5_3}\\
+\includegraphics[scale=0.57]{tabfig/evstu_bea_snap_total_pop_notr_5_3}&\includegraphics[scale=0.57]{tabfig/evstu_bea_snap_total_pop_year_5_3}\\
 a) No controls&b) Year FE\\
-\includegraphics[scale=0.57]{evstu_bea_snap_total_pop_yrcf_5_3}&\includegraphics[scale=0.57]{evstu_bea_snap_total_pop_yrcfsttr_5_3}\\
+\includegraphics[scale=0.57]{tabfig/evstu_bea_snap_total_pop_yrcf_5_3}&\includegraphics[scale=0.57]{tabfig/evstu_bea_snap_total_pop_yrcfsttr_5_3}\\
 c) Year FE and County FE&d) Year FE, County FE, County Trends\\
 \end{tabular}
 \end{figure}
 
 \begin{figure}\caption{Event Study Estimates, Households, weighted}
 \begin{tabular}{cc}
-\includegraphics[scale=0.57]{evstu_snap_h_tot_total_pop_notr_5_3}&\includegraphics[scale=0.57]{evstu_snap_h_tot_total_pop_year_5_3}\\
+\includegraphics[scale=0.57]{tabfig/evstu_snap_h_tot_total_pop_notr_5_3}&\includegraphics[scale=0.57]{tabfig/evstu_snap_h_tot_total_pop_year_5_3}\\
 a) No controls&b) Year FE\\
-\includegraphics[scale=0.57]{evstu_snap_h_tot_total_pop_yrcf_5_3}&\includegraphics[scale=0.57]{evstu_snap_h_tot_total_pop_yrcfsttr_5_3}\\
+\includegraphics[scale=0.57]{tabfig/evstu_snap_h_tot_total_pop_yrcf_5_3}&\includegraphics[scale=0.57]{tabfig/evstu_snap_h_tot_total_pop_yrcfsttr_5_3}\\
 c) Year FE and County FE&d) Year FE, County FE, County Trends\\
 \end{tabular}
 \end{figure}
@@ -127,18 +131,18 @@ c) Year FE and County FE&d) Year FE, County FE, County Trends\\
 
 \begin{figure}\caption{Event Study Estimates, Individuals, weighted}
 \begin{tabular}{cc}
-\includegraphics[scale=0.57]{evstu_snap_p_tot_total_pop_notr_5_3}&\includegraphics[scale=0.57]{evstu_snap_p_tot_total_pop_year_5_3}\\
+\includegraphics[scale=0.57]{tabfig/evstu_snap_p_tot_total_pop_notr_5_3}&\includegraphics[scale=0.57]{tabfig/evstu_snap_p_tot_total_pop_year_5_3}\\
 a) No controls&b) Year FE\\
-\includegraphics[scale=0.57]{evstu_snap_p_tot_total_pop_yrcf_5_3}&\includegraphics[scale=0.57]{evstu_snap_p_tot_total_pop_yrcfsttr_5_3}\\
+\includegraphics[scale=0.57]{tabfig/evstu_snap_p_tot_total_pop_yrcf_5_3}&\includegraphics[scale=0.57]{tabfig/evstu_snap_p_tot_total_pop_yrcfsttr_5_3}\\
 c) Year FE and County FE&d) Year FE, County FE, County Trends\\
 \end{tabular}
 \end{figure}
 
 \begin{figure}\caption{Event Study Estimates, Benefits, weighted}
 \begin{tabular}{cc}
-\includegraphics[scale=0.57]{evstu_snap_t_total_pop_notr_5_3}&\includegraphics[scale=0.57]{evstu_snap_t_total_pop_year_5_3}\\
+\includegraphics[scale=0.57]{tabfig/evstu_snap_t_total_pop_notr_5_3}&\includegraphics[scale=0.57]{tabfig/evstu_snap_t_total_pop_year_5_3}\\
 a) No controls&b) Year FE\\
-\includegraphics[scale=0.57]{evstu_snap_t_total_pop_yrcf_5_3}&\includegraphics[scale=0.57]{evstu_snap_t_total_pop_yrcfsttr_5_3}\\
+\includegraphics[scale=0.57]{tabfig/evstu_snap_t_total_pop_yrcf_5_3}&\includegraphics[scale=0.57]{tabfig/evstu_snap_t_total_pop_yrcfsttr_5_3}\\
 c) Year FE and County FE&d) Year FE, County FE, County Trends\\
 \end{tabular}
 \end{figure}

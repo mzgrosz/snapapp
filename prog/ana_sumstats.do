@@ -23,7 +23,7 @@ if `n' == 4 {
 	gl dir = "H:\snapapp"
 	gl data "${dir}\data"
 	gl logs "${dir}\logs"
-	gl out "${dir}\output"
+	gl out "C:\Users\mgrosz\Documents\GitHub\snapapp\output\tabfig"
 }	
 
 local figbacks "plotregion(fcolor(white)) graphregion(fcolor(white) lwidth(large)) bgcolor(white)"
