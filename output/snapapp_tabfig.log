@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2019.7.22)  26 JUL 2019 15:26
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2019.7.22)  29 JUL 2019 09:16
 entering extended mode
 **C:/Users/mgrosz/Documents/GitHub/snapapp/output/snapapp_tabfig.tex
 (C:/Users/mgrosz/Documents/GitHub/snapapp/output/snapapp_tabfig.tex
@@ -1058,15 +1058,15 @@ Package pdftex.def Info: tabfig/rolloutgraph-eps-converted-to.pdf used on input
  line 50.
 (pdftex.def)             Requested size: 397.48402pt x 289.07928pt.
 Package epstopdf Info: Source file: <tabfig/evstu_bea_snap_one_yrcf_5_3.eps>
-(epstopdf)                    date: 2019-07-26 15:18:10
-(epstopdf)                    size: 17229 bytes
+(epstopdf)                    date: 2019-07-26 22:45:56
+(epstopdf)                    size: 16819 bytes
 (epstopdf)             Output file: <tabfig/evstu_bea_snap_one_yrcf_5_3-eps-con
 verted-to.pdf>
-(epstopdf)                    date: 2019-07-26 15:23:49
-(epstopdf)                    size: 4715 bytes
+(epstopdf)                    date: 2019-07-29 09:13:07
+(epstopdf)                    size: 4672 bytes
 (epstopdf)             Command: <epstopdf --outfile=tabfig/evstu_bea_snap_one_y
 rcf_5_3-eps-converted-to.pdf tabfig/evstu_bea_snap_one_yrcf_5_3.eps>
-(epstopdf)             \includegraphics on input line 71.
+(epstopdf)             \includegraphics on input line 70.
 Package epstopdf Info: Output file is already uptodate.
 
 <tabfig/evstu_bea_snap_one_yrcf_5_3-eps-converted-to.pdf, id=4, 397.485pt x 289
@@ -1075,19 +1075,19 @@ File: tabfig/evstu_bea_snap_one_yrcf_5_3-eps-converted-to.pdf Graphic file (typ
 e pdf)
  <use tabfig/evstu_bea_snap_one_yrcf_5_3-eps-converted-to.pdf>
 Package pdftex.def Info: tabfig/evstu_bea_snap_one_yrcf_5_3-eps-converted-to.pd
-f used on input line 71.
+f used on input line 70.
 (pdftex.def)             Requested size: 226.5688pt x 164.7773pt.
 Package epstopdf Info: Source file: <tabfig/evstu_bea_snap_one_yrcfsttr_5_3.eps
 >
-(epstopdf)                    date: 2019-07-26 15:18:19
-(epstopdf)                    size: 16382 bytes
+(epstopdf)                    date: 2019-07-26 22:46:07
+(epstopdf)                    size: 16806 bytes
 (epstopdf)             Output file: <tabfig/evstu_bea_snap_one_yrcfsttr_5_3-eps
 -converted-to.pdf>
-(epstopdf)                    date: 2019-07-26 15:23:49
-(epstopdf)                    size: 4666 bytes
+(epstopdf)                    date: 2019-07-29 09:13:07
+(epstopdf)                    size: 4681 bytes
 (epstopdf)             Command: <epstopdf --outfile=tabfig/evstu_bea_snap_one_y
 rcfsttr_5_3-eps-converted-to.pdf tabfig/evstu_bea_snap_one_yrcfsttr_5_3.eps>
-(epstopdf)             \includegraphics on input line 71.
+(epstopdf)             \includegraphics on input line 70.
 Package epstopdf Info: Output file is already uptodate.
 
 <tabfig/evstu_bea_snap_one_yrcfsttr_5_3-eps-converted-to.pdf, id=5, 397.485pt x
@@ -1096,19 +1096,19 @@ File: tabfig/evstu_bea_snap_one_yrcfsttr_5_3-eps-converted-to.pdf Graphic file
 (type pdf)
  <use tabfig/evstu_bea_snap_one_yrcfsttr_5_3-eps-converted-to.pdf>
 Package pdftex.def Info: tabfig/evstu_bea_snap_one_yrcfsttr_5_3-eps-converted-t
-o.pdf used on input line 71.
+o.pdf used on input line 70.
 (pdftex.def)             Requested size: 226.5688pt x 164.7773pt.
 Package epstopdf Info: Source file: <tabfig/evstu_bea_snap_one_yrcfcttru_5_3.ep
 s>
-(epstopdf)                    date: 2019-07-26 15:18:37
-(epstopdf)                    size: 17229 bytes
+(epstopdf)                    date: 2019-07-26 22:46:25
+(epstopdf)                    size: 16806 bytes
 (epstopdf)             Output file: <tabfig/evstu_bea_snap_one_yrcfcttru_5_3-ep
 s-converted-to.pdf>
-(epstopdf)                    date: 2019-07-26 15:26:09
-(epstopdf)                    size: 4707 bytes
+(epstopdf)                    date: 2019-07-29 09:13:08
+(epstopdf)                    size: 4685 bytes
 (epstopdf)             Command: <epstopdf --outfile=tabfig/evstu_bea_snap_one_y
 rcfcttru_5_3-eps-converted-to.pdf tabfig/evstu_bea_snap_one_yrcfcttru_5_3.eps>
-(epstopdf)             \includegraphics on input line 73.
+(epstopdf)             \includegraphics on input line 72.
 Package epstopdf Info: Output file is already uptodate.
 
 <tabfig/evstu_bea_snap_one_yrcfcttru_5_3-eps-converted-to.pdf, id=6, 397.485pt 
@@ -1117,7 +1117,7 @@ File: tabfig/evstu_bea_snap_one_yrcfcttru_5_3-eps-converted-to.pdf Graphic file
  (type pdf)
  <use tabfig/evstu_bea_snap_one_yrcfcttru_5_3-eps-converted-to.pdf>
 Package pdftex.def Info: tabfig/evstu_bea_snap_one_yrcfcttru_5_3-eps-converted-
-to.pdf used on input line 73.
+to.pdf used on input line 72.
 (pdftex.def)             Requested size: 226.5688pt x 164.7773pt.
 Package epstopdf Info: Source file: <tabfig/evstu_bea_snap_total_pop_yrcfcttru_
 5_3.eps>
@@ -1130,7 +1130,7 @@ Package epstopdf Info: Source file: <tabfig/evstu_bea_snap_total_pop_yrcfcttru_
 (epstopdf)             Command: <epstopdf --outfile=tabfig/evstu_bea_snap_total
 _pop_yrcfcttru_5_3-eps-converted-to.pdf tabfig/evstu_bea_snap_total_pop_yrcfctt
 ru_5_3.eps>
-(epstopdf)             \includegraphics on input line 73.
+(epstopdf)             \includegraphics on input line 72.
 Package epstopdf Info: Output file is already uptodate.
 
 <tabfig/evstu_bea_snap_total_pop_yrcfcttru_5_3-eps-converted-to.pdf, id=7, 397.
@@ -1140,148 +1140,160 @@ c file (type pdf)
 
 <use tabfig/evstu_bea_snap_total_pop_yrcfcttru_5_3-eps-converted-to.pdf>
 Package pdftex.def Info: tabfig/evstu_bea_snap_total_pop_yrcfcttru_5_3-eps-conv
-erted-to.pdf used on input line 73.
+erted-to.pdf used on input line 72.
+(pdftex.def)             Requested size: 226.5688pt x 164.7773pt.
+Package epstopdf Info: Source file: <tabfig/evstu_bea_snap_one_yrcfcttrunor_5_3
+.eps>
+(epstopdf)                    date: 2019-07-26 22:46:33
+(epstopdf)                    size: 15951 bytes
+(epstopdf)             Output file: <tabfig/evstu_bea_snap_one_yrcfcttrunor_5_3
+-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-07-29 09:13:10
+(epstopdf)                    size: 4654 bytes
+(epstopdf)             Command: <epstopdf --outfile=tabfig/evstu_bea_snap_one_y
+rcfcttrunor_5_3-eps-converted-to.pdf tabfig/evstu_bea_snap_one_yrcfcttrunor_5_3
+.eps>
+(epstopdf)             \includegraphics on input line 74.
+Package epstopdf Info: Output file is already uptodate.
+
+<tabfig/evstu_bea_snap_one_yrcfcttrunor_5_3-eps-converted-to.pdf, id=8, 397.485
+pt x 289.08pt>
+File: tabfig/evstu_bea_snap_one_yrcfcttrunor_5_3-eps-converted-to.pdf Graphic f
+ile (type pdf)
+
+<use tabfig/evstu_bea_snap_one_yrcfcttrunor_5_3-eps-converted-to.pdf>
+Package pdftex.def Info: tabfig/evstu_bea_snap_one_yrcfcttrunor_5_3-eps-convert
+ed-to.pdf used on input line 74.
 (pdftex.def)             Requested size: 226.5688pt x 164.7773pt.
 
-Overfull \hbox (37.04324pt too wide) in paragraph at lines 69--77
+Overfull \hbox (84.58517pt too wide) in paragraph at lines 69--77
 [][] 
  []
 
-Package epstopdf Info: Source file: <tabfig/evstu_snap_h_tot_one_notr_5_3.eps>
-(epstopdf)                    date: 2019-07-26 15:15:40
-(epstopdf)                    size: 16382 bytes
-(epstopdf)             Output file: <tabfig/evstu_snap_h_tot_one_notr_5_3-eps-c
-onverted-to.pdf>
-(epstopdf)                    date: 2019-07-26 15:26:10
-(epstopdf)                    size: 4667 bytes
-(epstopdf)             Command: <epstopdf --outfile=tabfig/evstu_snap_h_tot_one
-_notr_5_3-eps-converted-to.pdf tabfig/evstu_snap_h_tot_one_notr_5_3.eps>
-(epstopdf)             \includegraphics on input line 81.
-Package epstopdf Info: Output file is already uptodate.
-
-<tabfig/evstu_snap_h_tot_one_notr_5_3-eps-converted-to.pdf, id=8, 397.485pt x 2
-89.08pt>
-File: tabfig/evstu_snap_h_tot_one_notr_5_3-eps-converted-to.pdf Graphic file (t
-ype pdf)
- <use tabfig/evstu_snap_h_tot_one_notr_5_3-eps-converted-to.pdf>
-Package pdftex.def Info: tabfig/evstu_snap_h_tot_one_notr_5_3-eps-converted-to.
-pdf used on input line 81.
-(pdftex.def)             Requested size: 226.5688pt x 164.7773pt.
-Package epstopdf Info: Source file: <tabfig/evstu_snap_h_tot_one_year_5_3.eps>
-(epstopdf)                    date: 2019-07-26 15:15:49
-(epstopdf)                    size: 16384 bytes
-(epstopdf)             Output file: <tabfig/evstu_snap_h_tot_one_year_5_3-eps-c
-onverted-to.pdf>
-(epstopdf)                    date: 2019-07-26 15:26:11
-(epstopdf)                    size: 4652 bytes
-(epstopdf)             Command: <epstopdf --outfile=tabfig/evstu_snap_h_tot_one
-_year_5_3-eps-converted-to.pdf tabfig/evstu_snap_h_tot_one_year_5_3.eps>
-(epstopdf)             \includegraphics on input line 81.
-Package epstopdf Info: Output file is already uptodate.
-
-<tabfig/evstu_snap_h_tot_one_year_5_3-eps-converted-to.pdf, id=9, 397.485pt x 2
-89.08pt>
-File: tabfig/evstu_snap_h_tot_one_year_5_3-eps-converted-to.pdf Graphic file (t
-ype pdf)
- <use tabfig/evstu_snap_h_tot_one_year_5_3-eps-converted-to.pdf>
-Package pdftex.def Info: tabfig/evstu_snap_h_tot_one_year_5_3-eps-converted-to.
-pdf used on input line 81.
-(pdftex.def)             Requested size: 226.5688pt x 164.7773pt.
 Package epstopdf Info: Source file: <tabfig/evstu_snap_h_tot_one_yrcf_5_3.eps>
-(epstopdf)                    date: 2019-07-26 15:16:00
-(epstopdf)                    size: 16823 bytes
+(epstopdf)                    date: 2019-07-26 19:48:11
+(epstopdf)                    size: 16384 bytes
 (epstopdf)             Output file: <tabfig/evstu_snap_h_tot_one_yrcf_5_3-eps-c
 onverted-to.pdf>
-(epstopdf)                    date: 2019-07-26 15:26:11
-(epstopdf)                    size: 4700 bytes
+(epstopdf)                    date: 2019-07-29 09:13:11
+(epstopdf)                    size: 4684 bytes
 (epstopdf)             Command: <epstopdf --outfile=tabfig/evstu_snap_h_tot_one
 _yrcf_5_3-eps-converted-to.pdf tabfig/evstu_snap_h_tot_one_yrcf_5_3.eps>
-(epstopdf)             \includegraphics on input line 83.
+(epstopdf)             \includegraphics on input line 81.
 Package epstopdf Info: Output file is already uptodate.
 
-<tabfig/evstu_snap_h_tot_one_yrcf_5_3-eps-converted-to.pdf, id=10, 397.485pt x 
-289.08pt>
+<tabfig/evstu_snap_h_tot_one_yrcf_5_3-eps-converted-to.pdf, id=9, 397.485pt x 2
+89.08pt>
 File: tabfig/evstu_snap_h_tot_one_yrcf_5_3-eps-converted-to.pdf Graphic file (t
 ype pdf)
  <use tabfig/evstu_snap_h_tot_one_yrcf_5_3-eps-converted-to.pdf>
 Package pdftex.def Info: tabfig/evstu_snap_h_tot_one_yrcf_5_3-eps-converted-to.
-pdf used on input line 83.
+pdf used on input line 81.
 (pdftex.def)             Requested size: 226.5688pt x 164.7773pt.
 Package epstopdf Info: Source file: <tabfig/evstu_snap_h_tot_one_yrcfsttr_5_3.e
 ps>
-(epstopdf)                    date: 2019-07-26 15:16:12
-(epstopdf)                    size: 15547 bytes
+(epstopdf)                    date: 2019-07-26 19:48:22
+(epstopdf)                    size: 16820 bytes
 (epstopdf)             Output file: <tabfig/evstu_snap_h_tot_one_yrcfsttr_5_3-e
 ps-converted-to.pdf>
-(epstopdf)                    date: 2019-07-26 15:26:12
-(epstopdf)                    size: 4610 bytes
+(epstopdf)                    date: 2019-07-29 09:13:12
+(epstopdf)                    size: 4674 bytes
 (epstopdf)             Command: <epstopdf --outfile=tabfig/evstu_snap_h_tot_one
 _yrcfsttr_5_3-eps-converted-to.pdf tabfig/evstu_snap_h_tot_one_yrcfsttr_5_3.eps
 >
-(epstopdf)             \includegraphics on input line 83.
+(epstopdf)             \includegraphics on input line 81.
 Package epstopdf Info: Output file is already uptodate.
 
-<tabfig/evstu_snap_h_tot_one_yrcfsttr_5_3-eps-converted-to.pdf, id=11, 397.485p
+<tabfig/evstu_snap_h_tot_one_yrcfsttr_5_3-eps-converted-to.pdf, id=10, 397.485p
 t x 289.08pt>
 File: tabfig/evstu_snap_h_tot_one_yrcfsttr_5_3-eps-converted-to.pdf Graphic fil
 e (type pdf)
 
 <use tabfig/evstu_snap_h_tot_one_yrcfsttr_5_3-eps-converted-to.pdf>
 Package pdftex.def Info: tabfig/evstu_snap_h_tot_one_yrcfsttr_5_3-eps-converted
--to.pdf used on input line 83.
+-to.pdf used on input line 81.
+(pdftex.def)             Requested size: 226.5688pt x 164.7773pt.
+Package epstopdf Info: Source file: <tabfig/evstu_snap_h_tot_one_yrcfcttru_5_3.
+eps>
+(epstopdf)                    date: 2019-07-26 19:48:40
+(epstopdf)                    size: 16397 bytes
+(epstopdf)             Output file: <tabfig/evstu_snap_h_tot_one_yrcfcttru_5_3-
+eps-converted-to.pdf>
+(epstopdf)                    date: 2019-07-29 09:15:17
+(epstopdf)                    size: 4663 bytes
+(epstopdf)             Command: <epstopdf --outfile=tabfig/evstu_snap_h_tot_one
+_yrcfcttru_5_3-eps-converted-to.pdf tabfig/evstu_snap_h_tot_one_yrcfcttru_5_3.e
+ps>
+(epstopdf)             \includegraphics on input line 83.
+Package epstopdf Info: Output file is already uptodate.
+
+<tabfig/evstu_snap_h_tot_one_yrcfcttru_5_3-eps-converted-to.pdf, id=11, 397.485
+pt x 289.08pt>
+File: tabfig/evstu_snap_h_tot_one_yrcfcttru_5_3-eps-converted-to.pdf Graphic fi
+le (type pdf)
+
+<use tabfig/evstu_snap_h_tot_one_yrcfcttru_5_3-eps-converted-to.pdf>
+Package pdftex.def Info: tabfig/evstu_snap_h_tot_one_yrcfcttru_5_3-eps-converte
+d-to.pdf used on input line 83.
+(pdftex.def)             Requested size: 226.5688pt x 164.7773pt.
+Package epstopdf Info: Source file: <tabfig/evstu_snap_h_tot_total_pop_yrcfcttr
+u_5_3.eps>
+(epstopdf)                    date: 2019-07-27 01:29:35
+(epstopdf)                    size: 17237 bytes
+(epstopdf)             Output file: <tabfig/evstu_snap_h_tot_total_pop_yrcfcttr
+u_5_3-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-07-29 09:15:18
+(epstopdf)                    size: 4704 bytes
+(epstopdf)             Command: <epstopdf --outfile=tabfig/evstu_snap_h_tot_tot
+al_pop_yrcfcttru_5_3-eps-converted-to.pdf tabfig/evstu_snap_h_tot_total_pop_yrc
+fcttru_5_3.eps>
+(epstopdf)             \includegraphics on input line 83.
+Package epstopdf Info: Output file is already uptodate.
+
+<tabfig/evstu_snap_h_tot_total_pop_yrcfcttru_5_3-eps-converted-to.pdf, id=12, 3
+97.485pt x 289.08pt>
+File: tabfig/evstu_snap_h_tot_total_pop_yrcfcttru_5_3-eps-converted-to.pdf Grap
+hic file (type pdf)
+
+<use tabfig/evstu_snap_h_tot_total_pop_yrcfcttru_5_3-eps-converted-to.pdf>
+Package pdftex.def Info: tabfig/evstu_snap_h_tot_total_pop_yrcfcttru_5_3-eps-co
+nverted-to.pdf used on input line 83.
+(pdftex.def)             Requested size: 226.5688pt x 164.7773pt.
+Package epstopdf Info: Source file: <tabfig/evstu_snap_h_tot_one_yrcfcttrunor_5
+_3.eps>
+(epstopdf)                    date: 2019-07-26 19:48:48
+(epstopdf)                    size: 15965 bytes
+(epstopdf)             Output file: <tabfig/evstu_snap_h_tot_one_yrcfcttrunor_5
+_3-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-07-29 09:15:19
+(epstopdf)                    size: 4658 bytes
+(epstopdf)             Command: <epstopdf --outfile=tabfig/evstu_snap_h_tot_one
+_yrcfcttrunor_5_3-eps-converted-to.pdf tabfig/evstu_snap_h_tot_one_yrcfcttrunor
+_5_3.eps>
+(epstopdf)             \includegraphics on input line 85.
+Package epstopdf Info: Output file is already uptodate.
+
+<tabfig/evstu_snap_h_tot_one_yrcfcttrunor_5_3-eps-converted-to.pdf, id=13, 397.
+485pt x 289.08pt>
+File: tabfig/evstu_snap_h_tot_one_yrcfcttrunor_5_3-eps-converted-to.pdf Graphic
+ file (type pdf)
+
+<use tabfig/evstu_snap_h_tot_one_yrcfcttrunor_5_3-eps-converted-to.pdf>
+Package pdftex.def Info: tabfig/evstu_snap_h_tot_one_yrcfcttrunor_5_3-eps-conve
+rted-to.pdf used on input line 85.
 (pdftex.def)             Requested size: 226.5688pt x 164.7773pt.
 
-Overfull \hbox (7.38258pt too wide) in paragraph at lines 80--86
+Overfull \hbox (84.58517pt too wide) in paragraph at lines 80--88
 [][] 
  []
 
-Package epstopdf Info: Source file: <tabfig/evstu_snap_p_tot_one_notr_5_3.eps>
-(epstopdf)                    date: 2019-07-26 15:14:34
-(epstopdf)                    size: 16805 bytes
-(epstopdf)             Output file: <tabfig/evstu_snap_p_tot_one_notr_5_3-eps-c
-onverted-to.pdf>
-(epstopdf)                    date: 2019-07-26 15:26:12
-(epstopdf)                    size: 4684 bytes
-(epstopdf)             Command: <epstopdf --outfile=tabfig/evstu_snap_p_tot_one
-_notr_5_3-eps-converted-to.pdf tabfig/evstu_snap_p_tot_one_notr_5_3.eps>
-(epstopdf)             \includegraphics on input line 91.
-Package epstopdf Info: Output file is already uptodate.
-
-<tabfig/evstu_snap_p_tot_one_notr_5_3-eps-converted-to.pdf, id=12, 397.485pt x 
-289.08pt>
-File: tabfig/evstu_snap_p_tot_one_notr_5_3-eps-converted-to.pdf Graphic file (t
-ype pdf)
- <use tabfig/evstu_snap_p_tot_one_notr_5_3-eps-converted-to.pdf>
-Package pdftex.def Info: tabfig/evstu_snap_p_tot_one_notr_5_3-eps-converted-to.
-pdf used on input line 91.
-(pdftex.def)             Requested size: 226.5688pt x 164.7773pt.
-Package epstopdf Info: Source file: <tabfig/evstu_snap_p_tot_one_year_5_3.eps>
-(epstopdf)                    date: 2019-07-26 15:14:45
-(epstopdf)                    size: 17247 bytes
-(epstopdf)             Output file: <tabfig/evstu_snap_p_tot_one_year_5_3-eps-c
-onverted-to.pdf>
-(epstopdf)                    date: 2019-07-26 15:26:13
-(epstopdf)                    size: 4704 bytes
-(epstopdf)             Command: <epstopdf --outfile=tabfig/evstu_snap_p_tot_one
-_year_5_3-eps-converted-to.pdf tabfig/evstu_snap_p_tot_one_year_5_3.eps>
-(epstopdf)             \includegraphics on input line 91.
-Package epstopdf Info: Output file is already uptodate.
-
-<tabfig/evstu_snap_p_tot_one_year_5_3-eps-converted-to.pdf, id=13, 397.485pt x 
-289.08pt>
-File: tabfig/evstu_snap_p_tot_one_year_5_3-eps-converted-to.pdf Graphic file (t
-ype pdf)
- <use tabfig/evstu_snap_p_tot_one_year_5_3-eps-converted-to.pdf>
-Package pdftex.def Info: tabfig/evstu_snap_p_tot_one_year_5_3-eps-converted-to.
-pdf used on input line 91.
-(pdftex.def)             Requested size: 226.5688pt x 164.7773pt.
 Package epstopdf Info: Source file: <tabfig/evstu_snap_p_tot_one_yrcf_5_3.eps>
-(epstopdf)                    date: 2019-07-26 15:14:54
-(epstopdf)                    size: 17246 bytes
+(epstopdf)                    date: 2019-07-26 18:21:46
+(epstopdf)                    size: 16385 bytes
 (epstopdf)             Output file: <tabfig/evstu_snap_p_tot_one_yrcf_5_3-eps-c
 onverted-to.pdf>
-(epstopdf)                    date: 2019-07-26 15:26:13
-(epstopdf)                    size: 4705 bytes
+(epstopdf)                    date: 2019-07-29 09:13:13
+(epstopdf)                    size: 4668 bytes
 (epstopdf)             Command: <epstopdf --outfile=tabfig/evstu_snap_p_tot_one
 _yrcf_5_3-eps-converted-to.pdf tabfig/evstu_snap_p_tot_one_yrcf_5_3.eps>
 (epstopdf)             \includegraphics on input line 93.
@@ -1297,12 +1309,12 @@ pdf used on input line 93.
 (pdftex.def)             Requested size: 226.5688pt x 164.7773pt.
 Package epstopdf Info: Source file: <tabfig/evstu_snap_p_tot_one_yrcfsttr_5_3.e
 ps>
-(epstopdf)                    date: 2019-07-26 15:15:04
-(epstopdf)                    size: 16820 bytes
+(epstopdf)                    date: 2019-07-26 18:21:55
+(epstopdf)                    size: 17249 bytes
 (epstopdf)             Output file: <tabfig/evstu_snap_p_tot_one_yrcfsttr_5_3-e
 ps-converted-to.pdf>
-(epstopdf)                    date: 2019-07-26 15:26:14
-(epstopdf)                    size: 4686 bytes
+(epstopdf)                    date: 2019-07-29 09:13:14
+(epstopdf)                    size: 4697 bytes
 (epstopdf)             Command: <epstopdf --outfile=tabfig/evstu_snap_p_tot_one
 _yrcfsttr_5_3-eps-converted-to.pdf tabfig/evstu_snap_p_tot_one_yrcfsttr_5_3.eps
 >
@@ -1318,479 +1330,193 @@ e (type pdf)
 Package pdftex.def Info: tabfig/evstu_snap_p_tot_one_yrcfsttr_5_3-eps-converted
 -to.pdf used on input line 93.
 (pdftex.def)             Requested size: 226.5688pt x 164.7773pt.
+Package epstopdf Info: Source file: <tabfig/evstu_snap_p_tot_one_yrcfcttru_5_3.
+eps>
+(epstopdf)                    date: 2019-07-26 18:22:12
+(epstopdf)                    size: 16820 bytes
+(epstopdf)             Output file: <tabfig/evstu_snap_p_tot_one_yrcfcttru_5_3-
+eps-converted-to.pdf>
+(epstopdf)                    date: 2019-07-29 09:15:20
+(epstopdf)                    size: 4683 bytes
+(epstopdf)             Command: <epstopdf --outfile=tabfig/evstu_snap_p_tot_one
+_yrcfcttru_5_3-eps-converted-to.pdf tabfig/evstu_snap_p_tot_one_yrcfcttru_5_3.e
+ps>
+(epstopdf)             \includegraphics on input line 95.
+Package epstopdf Info: Output file is already uptodate.
 
-Overfull \hbox (7.38258pt too wide) in paragraph at lines 90--96
+<tabfig/evstu_snap_p_tot_one_yrcfcttru_5_3-eps-converted-to.pdf, id=16, 397.485
+pt x 289.08pt>
+File: tabfig/evstu_snap_p_tot_one_yrcfcttru_5_3-eps-converted-to.pdf Graphic fi
+le (type pdf)
+
+<use tabfig/evstu_snap_p_tot_one_yrcfcttru_5_3-eps-converted-to.pdf>
+Package pdftex.def Info: tabfig/evstu_snap_p_tot_one_yrcfcttru_5_3-eps-converte
+d-to.pdf used on input line 95.
+(pdftex.def)             Requested size: 226.5688pt x 164.7773pt.
+Package epstopdf Info: Source file: <tabfig/evstu_snap_p_tot_total_pop_yrcfcttr
+u_5_3.eps>
+(epstopdf)                    date: 2019-07-27 00:09:45
+(epstopdf)                    size: 16383 bytes
+(epstopdf)             Output file: <tabfig/evstu_snap_p_tot_total_pop_yrcfcttr
+u_5_3-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-07-29 09:15:21
+(epstopdf)                    size: 4656 bytes
+(epstopdf)             Command: <epstopdf --outfile=tabfig/evstu_snap_p_tot_tot
+al_pop_yrcfcttru_5_3-eps-converted-to.pdf tabfig/evstu_snap_p_tot_total_pop_yrc
+fcttru_5_3.eps>
+(epstopdf)             \includegraphics on input line 95.
+Package epstopdf Info: Output file is already uptodate.
+
+<tabfig/evstu_snap_p_tot_total_pop_yrcfcttru_5_3-eps-converted-to.pdf, id=17, 3
+97.485pt x 289.08pt>
+File: tabfig/evstu_snap_p_tot_total_pop_yrcfcttru_5_3-eps-converted-to.pdf Grap
+hic file (type pdf)
+
+<use tabfig/evstu_snap_p_tot_total_pop_yrcfcttru_5_3-eps-converted-to.pdf>
+Package pdftex.def Info: tabfig/evstu_snap_p_tot_total_pop_yrcfcttru_5_3-eps-co
+nverted-to.pdf used on input line 95.
+(pdftex.def)             Requested size: 226.5688pt x 164.7773pt.
+Package epstopdf Info: Source file: <tabfig/evstu_snap_p_tot_one_yrcfcttrunor_5
+_3.eps>
+(epstopdf)                    date: 2019-07-26 18:22:20
+(epstopdf)                    size: 16385 bytes
+(epstopdf)             Output file: <tabfig/evstu_snap_p_tot_one_yrcfcttrunor_5
+_3-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-07-29 09:15:22
+(epstopdf)                    size: 4670 bytes
+(epstopdf)             Command: <epstopdf --outfile=tabfig/evstu_snap_p_tot_one
+_yrcfcttrunor_5_3-eps-converted-to.pdf tabfig/evstu_snap_p_tot_one_yrcfcttrunor
+_5_3.eps>
+(epstopdf)             \includegraphics on input line 97.
+Package epstopdf Info: Output file is already uptodate.
+
+<tabfig/evstu_snap_p_tot_one_yrcfcttrunor_5_3-eps-converted-to.pdf, id=18, 397.
+485pt x 289.08pt>
+File: tabfig/evstu_snap_p_tot_one_yrcfcttrunor_5_3-eps-converted-to.pdf Graphic
+ file (type pdf)
+
+<use tabfig/evstu_snap_p_tot_one_yrcfcttrunor_5_3-eps-converted-to.pdf>
+Package pdftex.def Info: tabfig/evstu_snap_p_tot_one_yrcfcttrunor_5_3-eps-conve
+rted-to.pdf used on input line 97.
+(pdftex.def)             Requested size: 226.5688pt x 164.7773pt.
+
+Overfull \hbox (84.58517pt too wide) in paragraph at lines 92--100
 [][] 
  []
 
-Package epstopdf Info: Source file: <tabfig/evstu_snap_t_one_notr_5_3.eps>
-(epstopdf)                    date: 2019-07-26 15:16:44
-(epstopdf)                    size: 17214 bytes
-(epstopdf)             Output file: <tabfig/evstu_snap_t_one_notr_5_3-eps-conve
-rted-to.pdf>
-(epstopdf)                    date: 2019-07-26 15:26:14
-(epstopdf)                    size: 4697 bytes
-(epstopdf)             Command: <epstopdf --outfile=tabfig/evstu_snap_t_one_not
-r_5_3-eps-converted-to.pdf tabfig/evstu_snap_t_one_notr_5_3.eps>
-(epstopdf)             \includegraphics on input line 100.
-Package epstopdf Info: Output file is already uptodate.
-
-<tabfig/evstu_snap_t_one_notr_5_3-eps-converted-to.pdf, id=16, 397.485pt x 289.
-08pt>
-File: tabfig/evstu_snap_t_one_notr_5_3-eps-converted-to.pdf Graphic file (type 
-pdf)
- <use tabfig/evstu_snap_t_one_notr_5_3-eps-converted-to.pdf>
-Package pdftex.def Info: tabfig/evstu_snap_t_one_notr_5_3-eps-converted-to.pdf 
-used on input line 100.
-(pdftex.def)             Requested size: 226.5688pt x 164.7773pt.
-Package epstopdf Info: Source file: <tabfig/evstu_snap_t_one_year_5_3.eps>
-(epstopdf)                    date: 2019-07-26 15:16:53
-(epstopdf)                    size: 17238 bytes
-(epstopdf)             Output file: <tabfig/evstu_snap_t_one_year_5_3-eps-conve
-rted-to.pdf>
-(epstopdf)                    date: 2019-07-26 15:26:15
-(epstopdf)                    size: 4705 bytes
-(epstopdf)             Command: <epstopdf --outfile=tabfig/evstu_snap_t_one_yea
-r_5_3-eps-converted-to.pdf tabfig/evstu_snap_t_one_year_5_3.eps>
-(epstopdf)             \includegraphics on input line 100.
-Package epstopdf Info: Output file is already uptodate.
-
-<tabfig/evstu_snap_t_one_year_5_3-eps-converted-to.pdf, id=17, 397.485pt x 289.
-08pt>
-File: tabfig/evstu_snap_t_one_year_5_3-eps-converted-to.pdf Graphic file (type 
-pdf)
- <use tabfig/evstu_snap_t_one_year_5_3-eps-converted-to.pdf>
-Package pdftex.def Info: tabfig/evstu_snap_t_one_year_5_3-eps-converted-to.pdf 
-used on input line 100.
-(pdftex.def)             Requested size: 226.5688pt x 164.7773pt.
 Package epstopdf Info: Source file: <tabfig/evstu_snap_t_one_yrcf_5_3.eps>
-(epstopdf)                    date: 2019-07-26 15:17:03
-(epstopdf)                    size: 17231 bytes
+(epstopdf)                    date: 2019-07-26 21:14:47
+(epstopdf)                    size: 16814 bytes
 (epstopdf)             Output file: <tabfig/evstu_snap_t_one_yrcf_5_3-eps-conve
 rted-to.pdf>
-(epstopdf)                    date: 2019-07-26 15:26:15
-(epstopdf)                    size: 4703 bytes
+(epstopdf)                    date: 2019-07-29 09:13:15
+(epstopdf)                    size: 4683 bytes
 (epstopdf)             Command: <epstopdf --outfile=tabfig/evstu_snap_t_one_yrc
 f_5_3-eps-converted-to.pdf tabfig/evstu_snap_t_one_yrcf_5_3.eps>
-(epstopdf)             \includegraphics on input line 102.
+(epstopdf)             \includegraphics on input line 104.
 Package epstopdf Info: Output file is already uptodate.
 
-<tabfig/evstu_snap_t_one_yrcf_5_3-eps-converted-to.pdf, id=18, 397.485pt x 289.
+<tabfig/evstu_snap_t_one_yrcf_5_3-eps-converted-to.pdf, id=19, 397.485pt x 289.
 08pt>
 File: tabfig/evstu_snap_t_one_yrcf_5_3-eps-converted-to.pdf Graphic file (type 
 pdf)
  <use tabfig/evstu_snap_t_one_yrcf_5_3-eps-converted-to.pdf>
 Package pdftex.def Info: tabfig/evstu_snap_t_one_yrcf_5_3-eps-converted-to.pdf 
-used on input line 102.
+used on input line 104.
 (pdftex.def)             Requested size: 226.5688pt x 164.7773pt.
 Package epstopdf Info: Source file: <tabfig/evstu_snap_t_one_yrcfsttr_5_3.eps>
-(epstopdf)                    date: 2019-07-26 15:17:13
-(epstopdf)                    size: 16390 bytes
+(epstopdf)                    date: 2019-07-26 21:14:55
+(epstopdf)                    size: 16814 bytes
 (epstopdf)             Output file: <tabfig/evstu_snap_t_one_yrcfsttr_5_3-eps-c
 onverted-to.pdf>
-(epstopdf)                    date: 2019-07-26 15:26:16
-(epstopdf)                    size: 4656 bytes
+(epstopdf)                    date: 2019-07-29 09:13:15
+(epstopdf)                    size: 4687 bytes
 (epstopdf)             Command: <epstopdf --outfile=tabfig/evstu_snap_t_one_yrc
 fsttr_5_3-eps-converted-to.pdf tabfig/evstu_snap_t_one_yrcfsttr_5_3.eps>
-(epstopdf)             \includegraphics on input line 102.
+(epstopdf)             \includegraphics on input line 104.
 Package epstopdf Info: Output file is already uptodate.
 
-<tabfig/evstu_snap_t_one_yrcfsttr_5_3-eps-converted-to.pdf, id=19, 397.485pt x 
+<tabfig/evstu_snap_t_one_yrcfsttr_5_3-eps-converted-to.pdf, id=20, 397.485pt x 
 289.08pt>
 File: tabfig/evstu_snap_t_one_yrcfsttr_5_3-eps-converted-to.pdf Graphic file (t
 ype pdf)
  <use tabfig/evstu_snap_t_one_yrcfsttr_5_3-eps-converted-to.pdf>
 Package pdftex.def Info: tabfig/evstu_snap_t_one_yrcfsttr_5_3-eps-converted-to.
-pdf used on input line 102.
+pdf used on input line 104.
 (pdftex.def)             Requested size: 226.5688pt x 164.7773pt.
+Package epstopdf Info: Source file: <tabfig/evstu_snap_t_one_yrcfcttru_5_3.eps>
 
-Overfull \hbox (7.38258pt too wide) in paragraph at lines 99--105
-[][] 
- []
-
-Package epstopdf Info: Source file: <tabfig/evstu_bea_snap_total_pop_notr_5_3.e
-ps>
-(epstopdf)                    date: 2019-07-26 15:21:53
-(epstopdf)                    size: 16373 bytes
-(epstopdf)             Output file: <tabfig/evstu_bea_snap_total_pop_notr_5_3-e
-ps-converted-to.pdf>
-(epstopdf)                    date: 2019-07-26 15:26:16
-(epstopdf)                    size: 4665 bytes
-(epstopdf)             Command: <epstopdf --outfile=tabfig/evstu_bea_snap_total
-_pop_notr_5_3-eps-converted-to.pdf tabfig/evstu_bea_snap_total_pop_notr_5_3.eps
->
-(epstopdf)             \includegraphics on input line 113.
-Package epstopdf Info: Output file is already uptodate.
-
-<tabfig/evstu_bea_snap_total_pop_notr_5_3-eps-converted-to.pdf, id=20, 397.485p
-t x 289.08pt>
-File: tabfig/evstu_bea_snap_total_pop_notr_5_3-eps-converted-to.pdf Graphic fil
-e (type pdf)
-
-<use tabfig/evstu_bea_snap_total_pop_notr_5_3-eps-converted-to.pdf>
-Package pdftex.def Info: tabfig/evstu_bea_snap_total_pop_notr_5_3-eps-converted
--to.pdf used on input line 113.
-(pdftex.def)             Requested size: 226.5688pt x 164.7773pt.
-Package epstopdf Info: Source file: <tabfig/evstu_bea_snap_total_pop_year_5_3.e
-ps>
-(epstopdf)                    date: 2019-07-26 15:22:02
-(epstopdf)                    size: 17214 bytes
-(epstopdf)             Output file: <tabfig/evstu_bea_snap_total_pop_year_5_3-e
-ps-converted-to.pdf>
-(epstopdf)                    date: 2019-07-26 15:26:17
-(epstopdf)                    size: 4709 bytes
-(epstopdf)             Command: <epstopdf --outfile=tabfig/evstu_bea_snap_total
-_pop_year_5_3-eps-converted-to.pdf tabfig/evstu_bea_snap_total_pop_year_5_3.eps
->
-(epstopdf)             \includegraphics on input line 113.
-Package epstopdf Info: Output file is already uptodate.
-
-<tabfig/evstu_bea_snap_total_pop_year_5_3-eps-converted-to.pdf, id=21, 397.485p
-t x 289.08pt>
-File: tabfig/evstu_bea_snap_total_pop_year_5_3-eps-converted-to.pdf Graphic fil
-e (type pdf)
-
-<use tabfig/evstu_bea_snap_total_pop_year_5_3-eps-converted-to.pdf>
-Package pdftex.def Info: tabfig/evstu_bea_snap_total_pop_year_5_3-eps-converted
--to.pdf used on input line 113.
-(pdftex.def)             Requested size: 226.5688pt x 164.7773pt.
-Package epstopdf Info: Source file: <tabfig/evstu_bea_snap_total_pop_yrcf_5_3.e
-ps>
-(epstopdf)                    date: 2019-07-26 15:22:12
-(epstopdf)                    size: 15949 bytes
-(epstopdf)             Output file: <tabfig/evstu_bea_snap_total_pop_yrcf_5_3-e
-ps-converted-to.pdf>
-(epstopdf)                    date: 2019-07-26 15:26:17
-(epstopdf)                    size: 4636 bytes
-(epstopdf)             Command: <epstopdf --outfile=tabfig/evstu_bea_snap_total
-_pop_yrcf_5_3-eps-converted-to.pdf tabfig/evstu_bea_snap_total_pop_yrcf_5_3.eps
->
-(epstopdf)             \includegraphics on input line 115.
-Package epstopdf Info: Output file is already uptodate.
-
-<tabfig/evstu_bea_snap_total_pop_yrcf_5_3-eps-converted-to.pdf, id=22, 397.485p
-t x 289.08pt>
-File: tabfig/evstu_bea_snap_total_pop_yrcf_5_3-eps-converted-to.pdf Graphic fil
-e (type pdf)
-
-<use tabfig/evstu_bea_snap_total_pop_yrcf_5_3-eps-converted-to.pdf>
-Package pdftex.def Info: tabfig/evstu_bea_snap_total_pop_yrcf_5_3-eps-converted
--to.pdf used on input line 115.
-(pdftex.def)             Requested size: 226.5688pt x 164.7773pt.
-Package epstopdf Info: Source file: <tabfig/evstu_bea_snap_total_pop_yrcfsttr_5
-_3.eps>
-(epstopdf)                    date: 2019-07-26 15:22:21
-(epstopdf)                    size: 16805 bytes
-(epstopdf)             Output file: <tabfig/evstu_bea_snap_total_pop_yrcfsttr_5
-_3-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-07-26 15:26:17
-(epstopdf)                    size: 4661 bytes
-(epstopdf)             Command: <epstopdf --outfile=tabfig/evstu_bea_snap_total
-_pop_yrcfsttr_5_3-eps-converted-to.pdf tabfig/evstu_bea_snap_total_pop_yrcfsttr
-_5_3.eps>
-(epstopdf)             \includegraphics on input line 115.
-Package epstopdf Info: Output file is already uptodate.
-
-<tabfig/evstu_bea_snap_total_pop_yrcfsttr_5_3-eps-converted-to.pdf, id=23, 397.
-485pt x 289.08pt>
-File: tabfig/evstu_bea_snap_total_pop_yrcfsttr_5_3-eps-converted-to.pdf Graphic
- file (type pdf)
-
-<use tabfig/evstu_bea_snap_total_pop_yrcfsttr_5_3-eps-converted-to.pdf>
-Package pdftex.def Info: tabfig/evstu_bea_snap_total_pop_yrcfsttr_5_3-eps-conve
-rted-to.pdf used on input line 115.
-(pdftex.def)             Requested size: 226.5688pt x 164.7773pt.
-
-Overfull \hbox (7.38258pt too wide) in paragraph at lines 112--118
-[][] 
- []
-
-Package epstopdf Info: Source file: <tabfig/evstu_snap_h_tot_total_pop_notr_5_3
-.eps>
-(epstopdf)                    date: 2019-07-26 15:19:52
-(epstopdf)                    size: 15943 bytes
-(epstopdf)             Output file: <tabfig/evstu_snap_h_tot_total_pop_notr_5_3
--eps-converted-to.pdf>
-(epstopdf)                    date: 2019-07-26 15:26:18
-(epstopdf)                    size: 4653 bytes
-(epstopdf)             Command: <epstopdf --outfile=tabfig/evstu_snap_h_tot_tot
-al_pop_notr_5_3-eps-converted-to.pdf tabfig/evstu_snap_h_tot_total_pop_notr_5_3
-.eps>
-(epstopdf)             \includegraphics on input line 122.
-Package epstopdf Info: Output file is already uptodate.
-
-<tabfig/evstu_snap_h_tot_total_pop_notr_5_3-eps-converted-to.pdf, id=24, 397.48
-5pt x 289.08pt>
-File: tabfig/evstu_snap_h_tot_total_pop_notr_5_3-eps-converted-to.pdf Graphic f
-ile (type pdf)
-
-<use tabfig/evstu_snap_h_tot_total_pop_notr_5_3-eps-converted-to.pdf>
-Package pdftex.def Info: tabfig/evstu_snap_h_tot_total_pop_notr_5_3-eps-convert
-ed-to.pdf used on input line 122.
-(pdftex.def)             Requested size: 226.5688pt x 164.7773pt.
-Package epstopdf Info: Source file: <tabfig/evstu_snap_h_tot_total_pop_year_5_3
-.eps>
-(epstopdf)                    date: 2019-07-26 15:20:01
-(epstopdf)                    size: 17226 bytes
-(epstopdf)             Output file: <tabfig/evstu_snap_h_tot_total_pop_year_5_3
--eps-converted-to.pdf>
-(epstopdf)                    date: 2019-07-26 15:26:18
-(epstopdf)                    size: 4699 bytes
-(epstopdf)             Command: <epstopdf --outfile=tabfig/evstu_snap_h_tot_tot
-al_pop_year_5_3-eps-converted-to.pdf tabfig/evstu_snap_h_tot_total_pop_year_5_3
-.eps>
-(epstopdf)             \includegraphics on input line 122.
-Package epstopdf Info: Output file is already uptodate.
-
-<tabfig/evstu_snap_h_tot_total_pop_year_5_3-eps-converted-to.pdf, id=25, 397.48
-5pt x 289.08pt>
-File: tabfig/evstu_snap_h_tot_total_pop_year_5_3-eps-converted-to.pdf Graphic f
-ile (type pdf)
-
-<use tabfig/evstu_snap_h_tot_total_pop_year_5_3-eps-converted-to.pdf>
-Package pdftex.def Info: tabfig/evstu_snap_h_tot_total_pop_year_5_3-eps-convert
-ed-to.pdf used on input line 122.
-(pdftex.def)             Requested size: 226.5688pt x 164.7773pt.
-Package epstopdf Info: Source file: <tabfig/evstu_snap_h_tot_total_pop_yrcf_5_3
-.eps>
-(epstopdf)                    date: 2019-07-26 15:20:10
+(epstopdf)                    date: 2019-07-26 21:15:14
 (epstopdf)                    size: 16808 bytes
-(epstopdf)             Output file: <tabfig/evstu_snap_h_tot_total_pop_yrcf_5_3
--eps-converted-to.pdf>
-(epstopdf)                    date: 2019-07-26 15:26:19
-(epstopdf)                    size: 4681 bytes
-(epstopdf)             Command: <epstopdf --outfile=tabfig/evstu_snap_h_tot_tot
-al_pop_yrcf_5_3-eps-converted-to.pdf tabfig/evstu_snap_h_tot_total_pop_yrcf_5_3
-.eps>
-(epstopdf)             \includegraphics on input line 124.
+(epstopdf)             Output file: <tabfig/evstu_snap_t_one_yrcfcttru_5_3-eps-
+converted-to.pdf>
+(epstopdf)                    date: 2019-07-29 09:15:23
+(epstopdf)                    size: 4694 bytes
+(epstopdf)             Command: <epstopdf --outfile=tabfig/evstu_snap_t_one_yrc
+fcttru_5_3-eps-converted-to.pdf tabfig/evstu_snap_t_one_yrcfcttru_5_3.eps>
+(epstopdf)             \includegraphics on input line 106.
 Package epstopdf Info: Output file is already uptodate.
 
-<tabfig/evstu_snap_h_tot_total_pop_yrcf_5_3-eps-converted-to.pdf, id=26, 397.48
-5pt x 289.08pt>
-File: tabfig/evstu_snap_h_tot_total_pop_yrcf_5_3-eps-converted-to.pdf Graphic f
-ile (type pdf)
-
-<use tabfig/evstu_snap_h_tot_total_pop_yrcf_5_3-eps-converted-to.pdf>
-Package pdftex.def Info: tabfig/evstu_snap_h_tot_total_pop_yrcf_5_3-eps-convert
-ed-to.pdf used on input line 124.
+<tabfig/evstu_snap_t_one_yrcfcttru_5_3-eps-converted-to.pdf, id=21, 397.485pt x
+ 289.08pt>
+File: tabfig/evstu_snap_t_one_yrcfcttru_5_3-eps-converted-to.pdf Graphic file (
+type pdf)
+ <use tabfig/evstu_snap_t_one_yrcfcttru_5_3-eps-converted-to.pdf>
+Package pdftex.def Info: tabfig/evstu_snap_t_one_yrcfcttru_5_3-eps-converted-to
+.pdf used on input line 106.
 (pdftex.def)             Requested size: 226.5688pt x 164.7773pt.
-Package epstopdf Info: Source file: <tabfig/evstu_snap_h_tot_total_pop_yrcfsttr
-_5_3.eps>
-(epstopdf)                    date: 2019-07-26 15:20:19
-(epstopdf)                    size: 16773 bytes
-(epstopdf)             Output file: <tabfig/evstu_snap_h_tot_total_pop_yrcfsttr
-_5_3-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-07-26 15:26:19
-(epstopdf)                    size: 4692 bytes
-(epstopdf)             Command: <epstopdf --outfile=tabfig/evstu_snap_h_tot_tot
-al_pop_yrcfsttr_5_3-eps-converted-to.pdf tabfig/evstu_snap_h_tot_total_pop_yrcf
-sttr_5_3.eps>
-(epstopdf)             \includegraphics on input line 124.
-Package epstopdf Info: Output file is already uptodate.
-
-<tabfig/evstu_snap_h_tot_total_pop_yrcfsttr_5_3-eps-converted-to.pdf, id=27, 39
-7.485pt x 289.08pt>
-File: tabfig/evstu_snap_h_tot_total_pop_yrcfsttr_5_3-eps-converted-to.pdf Graph
-ic file (type pdf)
-
-<use tabfig/evstu_snap_h_tot_total_pop_yrcfsttr_5_3-eps-converted-to.pdf>
-Package pdftex.def Info: tabfig/evstu_snap_h_tot_total_pop_yrcfsttr_5_3-eps-con
-verted-to.pdf used on input line 124.
-(pdftex.def)             Requested size: 226.5688pt x 164.7773pt.
-
-Overfull \hbox (7.38258pt too wide) in paragraph at lines 121--127
-[][] 
- []
-
-Package epstopdf Info: Source file: <tabfig/evstu_snap_p_tot_total_pop_notr_5_3
-.eps>
-(epstopdf)                    date: 2019-07-26 15:18:50
+Package epstopdf Info: Source file: <tabfig/evstu_snap_t_total_pop_yrcfcttru_5_
+3.eps>
+(epstopdf)                    date: 2019-07-26 15:21:39
 (epstopdf)                    size: 16789 bytes
-(epstopdf)             Output file: <tabfig/evstu_snap_p_tot_total_pop_notr_5_3
--eps-converted-to.pdf>
-(epstopdf)                    date: 2019-07-26 15:26:20
-(epstopdf)                    size: 4700 bytes
-(epstopdf)             Command: <epstopdf --outfile=tabfig/evstu_snap_p_tot_tot
-al_pop_notr_5_3-eps-converted-to.pdf tabfig/evstu_snap_p_tot_total_pop_notr_5_3
-.eps>
-(epstopdf)             \includegraphics on input line 132.
+(epstopdf)             Output file: <tabfig/evstu_snap_t_total_pop_yrcfcttru_5_
+3-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-07-29 09:15:25
+(epstopdf)                    size: 4675 bytes
+(epstopdf)             Command: <epstopdf --outfile=tabfig/evstu_snap_t_total_p
+op_yrcfcttru_5_3-eps-converted-to.pdf tabfig/evstu_snap_t_total_pop_yrcfcttru_5
+_3.eps>
+(epstopdf)             \includegraphics on input line 106.
 Package epstopdf Info: Output file is already uptodate.
 
-<tabfig/evstu_snap_p_tot_total_pop_notr_5_3-eps-converted-to.pdf, id=28, 397.48
-5pt x 289.08pt>
-File: tabfig/evstu_snap_p_tot_total_pop_notr_5_3-eps-converted-to.pdf Graphic f
-ile (type pdf)
+<tabfig/evstu_snap_t_total_pop_yrcfcttru_5_3-eps-converted-to.pdf, id=22, 397.4
+85pt x 289.08pt>
+File: tabfig/evstu_snap_t_total_pop_yrcfcttru_5_3-eps-converted-to.pdf Graphic 
+file (type pdf)
 
-<use tabfig/evstu_snap_p_tot_total_pop_notr_5_3-eps-converted-to.pdf>
-Package pdftex.def Info: tabfig/evstu_snap_p_tot_total_pop_notr_5_3-eps-convert
-ed-to.pdf used on input line 132.
+<use tabfig/evstu_snap_t_total_pop_yrcfcttru_5_3-eps-converted-to.pdf>
+Package pdftex.def Info: tabfig/evstu_snap_t_total_pop_yrcfcttru_5_3-eps-conver
+ted-to.pdf used on input line 106.
 (pdftex.def)             Requested size: 226.5688pt x 164.7773pt.
-Package epstopdf Info: Source file: <tabfig/evstu_snap_p_tot_total_pop_year_5_3
-.eps>
-(epstopdf)                    date: 2019-07-26 15:18:59
-(epstopdf)                    size: 17229 bytes
-(epstopdf)             Output file: <tabfig/evstu_snap_p_tot_total_pop_year_5_3
--eps-converted-to.pdf>
-(epstopdf)                    date: 2019-07-26 15:26:20
-(epstopdf)                    size: 4702 bytes
-(epstopdf)             Command: <epstopdf --outfile=tabfig/evstu_snap_p_tot_tot
-al_pop_year_5_3-eps-converted-to.pdf tabfig/evstu_snap_p_tot_total_pop_year_5_3
-.eps>
-(epstopdf)             \includegraphics on input line 132.
+Package epstopdf Info: Source file: <tabfig/evstu_snap_t_one_yrcfcttrunor_5_3.e
+ps>
+(epstopdf)                    date: 2019-07-26 21:15:23
+(epstopdf)                    size: 16371 bytes
+(epstopdf)             Output file: <tabfig/evstu_snap_t_one_yrcfcttrunor_5_3-e
+ps-converted-to.pdf>
+(epstopdf)                    date: 2019-07-29 09:15:26
+(epstopdf)                    size: 4672 bytes
+(epstopdf)             Command: <epstopdf --outfile=tabfig/evstu_snap_t_one_yrc
+fcttrunor_5_3-eps-converted-to.pdf tabfig/evstu_snap_t_one_yrcfcttrunor_5_3.eps
+>
+(epstopdf)             \includegraphics on input line 108.
 Package epstopdf Info: Output file is already uptodate.
 
-<tabfig/evstu_snap_p_tot_total_pop_year_5_3-eps-converted-to.pdf, id=29, 397.48
-5pt x 289.08pt>
-File: tabfig/evstu_snap_p_tot_total_pop_year_5_3-eps-converted-to.pdf Graphic f
-ile (type pdf)
+<tabfig/evstu_snap_t_one_yrcfcttrunor_5_3-eps-converted-to.pdf, id=23, 397.485p
+t x 289.08pt>
+File: tabfig/evstu_snap_t_one_yrcfcttrunor_5_3-eps-converted-to.pdf Graphic fil
+e (type pdf)
 
-<use tabfig/evstu_snap_p_tot_total_pop_year_5_3-eps-converted-to.pdf>
-Package pdftex.def Info: tabfig/evstu_snap_p_tot_total_pop_year_5_3-eps-convert
-ed-to.pdf used on input line 132.
-(pdftex.def)             Requested size: 226.5688pt x 164.7773pt.
-Package epstopdf Info: Source file: <tabfig/evstu_snap_p_tot_total_pop_yrcf_5_3
-.eps>
-(epstopdf)                    date: 2019-07-26 15:19:08
-(epstopdf)                    size: 17247 bytes
-(epstopdf)             Output file: <tabfig/evstu_snap_p_tot_total_pop_yrcf_5_3
--eps-converted-to.pdf>
-(epstopdf)                    date: 2019-07-26 15:26:21
-(epstopdf)                    size: 4684 bytes
-(epstopdf)             Command: <epstopdf --outfile=tabfig/evstu_snap_p_tot_tot
-al_pop_yrcf_5_3-eps-converted-to.pdf tabfig/evstu_snap_p_tot_total_pop_yrcf_5_3
-.eps>
-(epstopdf)             \includegraphics on input line 134.
-Package epstopdf Info: Output file is already uptodate.
-
-<tabfig/evstu_snap_p_tot_total_pop_yrcf_5_3-eps-converted-to.pdf, id=30, 397.48
-5pt x 289.08pt>
-File: tabfig/evstu_snap_p_tot_total_pop_yrcf_5_3-eps-converted-to.pdf Graphic f
-ile (type pdf)
-
-<use tabfig/evstu_snap_p_tot_total_pop_yrcf_5_3-eps-converted-to.pdf>
-Package pdftex.def Info: tabfig/evstu_snap_p_tot_total_pop_yrcf_5_3-eps-convert
-ed-to.pdf used on input line 134.
-(pdftex.def)             Requested size: 226.5688pt x 164.7773pt.
-Package epstopdf Info: Source file: <tabfig/evstu_snap_p_tot_total_pop_yrcfsttr
-_5_3.eps>
-(epstopdf)                    date: 2019-07-26 15:19:17
-(epstopdf)                    size: 17196 bytes
-(epstopdf)             Output file: <tabfig/evstu_snap_p_tot_total_pop_yrcfsttr
-_5_3-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-07-26 15:26:21
-(epstopdf)                    size: 4715 bytes
-(epstopdf)             Command: <epstopdf --outfile=tabfig/evstu_snap_p_tot_tot
-al_pop_yrcfsttr_5_3-eps-converted-to.pdf tabfig/evstu_snap_p_tot_total_pop_yrcf
-sttr_5_3.eps>
-(epstopdf)             \includegraphics on input line 134.
-Package epstopdf Info: Output file is already uptodate.
-
-<tabfig/evstu_snap_p_tot_total_pop_yrcfsttr_5_3-eps-converted-to.pdf, id=31, 39
-7.485pt x 289.08pt>
-File: tabfig/evstu_snap_p_tot_total_pop_yrcfsttr_5_3-eps-converted-to.pdf Graph
-ic file (type pdf)
-
-<use tabfig/evstu_snap_p_tot_total_pop_yrcfsttr_5_3-eps-converted-to.pdf>
-Package pdftex.def Info: tabfig/evstu_snap_p_tot_total_pop_yrcfsttr_5_3-eps-con
-verted-to.pdf used on input line 134.
+<use tabfig/evstu_snap_t_one_yrcfcttrunor_5_3-eps-converted-to.pdf>
+Package pdftex.def Info: tabfig/evstu_snap_t_one_yrcfcttrunor_5_3-eps-converted
+-to.pdf used on input line 108.
 (pdftex.def)             Requested size: 226.5688pt x 164.7773pt.
 
-Overfull \hbox (7.38258pt too wide) in paragraph at lines 131--137
+Overfull \hbox (84.58517pt too wide) in paragraph at lines 103--111
 [][] 
  []
 
-Package epstopdf Info: Source file: <tabfig/evstu_snap_t_total_pop_notr_5_3.eps
->
-(epstopdf)                    date: 2019-07-26 15:20:51
-(epstopdf)                    size: 16367 bytes
-(epstopdf)             Output file: <tabfig/evstu_snap_t_total_pop_notr_5_3-eps
--converted-to.pdf>
-(epstopdf)                    date: 2019-07-26 15:26:22
-(epstopdf)                    size: 4676 bytes
-(epstopdf)             Command: <epstopdf --outfile=tabfig/evstu_snap_t_total_p
-op_notr_5_3-eps-converted-to.pdf tabfig/evstu_snap_t_total_pop_notr_5_3.eps>
-(epstopdf)             \includegraphics on input line 141.
-Package epstopdf Info: Output file is already uptodate.
-
-<tabfig/evstu_snap_t_total_pop_notr_5_3-eps-converted-to.pdf, id=32, 397.485pt 
-x 289.08pt>
-File: tabfig/evstu_snap_t_total_pop_notr_5_3-eps-converted-to.pdf Graphic file 
-(type pdf)
- <use tabfig/evstu_snap_t_total_pop_notr_5_3-eps-converted-to.pdf>
-Package pdftex.def Info: tabfig/evstu_snap_t_total_pop_notr_5_3-eps-converted-t
-o.pdf used on input line 141.
-(pdftex.def)             Requested size: 226.5688pt x 164.7773pt.
-Package epstopdf Info: Source file: <tabfig/evstu_snap_t_total_pop_year_5_3.eps
->
-(epstopdf)                    date: 2019-07-26 15:21:02
-(epstopdf)                    size: 17217 bytes
-(epstopdf)             Output file: <tabfig/evstu_snap_t_total_pop_year_5_3-eps
--converted-to.pdf>
-(epstopdf)                    date: 2019-07-26 15:26:22
-(epstopdf)                    size: 4703 bytes
-(epstopdf)             Command: <epstopdf --outfile=tabfig/evstu_snap_t_total_p
-op_year_5_3-eps-converted-to.pdf tabfig/evstu_snap_t_total_pop_year_5_3.eps>
-(epstopdf)             \includegraphics on input line 141.
-Package epstopdf Info: Output file is already uptodate.
-
-<tabfig/evstu_snap_t_total_pop_year_5_3-eps-converted-to.pdf, id=33, 397.485pt 
-x 289.08pt>
-File: tabfig/evstu_snap_t_total_pop_year_5_3-eps-converted-to.pdf Graphic file 
-(type pdf)
- <use tabfig/evstu_snap_t_total_pop_year_5_3-eps-converted-to.pdf>
-Package pdftex.def Info: tabfig/evstu_snap_t_total_pop_year_5_3-eps-converted-t
-o.pdf used on input line 141.
-(pdftex.def)             Requested size: 226.5688pt x 164.7773pt.
-Package epstopdf Info: Source file: <tabfig/evstu_snap_t_total_pop_yrcf_5_3.eps
->
-(epstopdf)                    date: 2019-07-26 15:21:12
-(epstopdf)                    size: 17228 bytes
-(epstopdf)             Output file: <tabfig/evstu_snap_t_total_pop_yrcf_5_3-eps
--converted-to.pdf>
-(epstopdf)                    date: 2019-07-26 15:26:23
-(epstopdf)                    size: 4686 bytes
-(epstopdf)             Command: <epstopdf --outfile=tabfig/evstu_snap_t_total_p
-op_yrcf_5_3-eps-converted-to.pdf tabfig/evstu_snap_t_total_pop_yrcf_5_3.eps>
-(epstopdf)             \includegraphics on input line 143.
-Package epstopdf Info: Output file is already uptodate.
-
-<tabfig/evstu_snap_t_total_pop_yrcf_5_3-eps-converted-to.pdf, id=34, 397.485pt 
-x 289.08pt>
-File: tabfig/evstu_snap_t_total_pop_yrcf_5_3-eps-converted-to.pdf Graphic file 
-(type pdf)
- <use tabfig/evstu_snap_t_total_pop_yrcf_5_3-eps-converted-to.pdf>
-Package pdftex.def Info: tabfig/evstu_snap_t_total_pop_yrcf_5_3-eps-converted-t
-o.pdf used on input line 143.
-(pdftex.def)             Requested size: 226.5688pt x 164.7773pt.
-Package epstopdf Info: Source file: <tabfig/evstu_snap_t_total_pop_yrcfsttr_5_3
-.eps>
-(epstopdf)                    date: 2019-07-26 15:21:20
-(epstopdf)                    size: 16804 bytes
-(epstopdf)             Output file: <tabfig/evstu_snap_t_total_pop_yrcfsttr_5_3
--eps-converted-to.pdf>
-(epstopdf)                    date: 2019-07-26 15:26:23
-(epstopdf)                    size: 4648 bytes
-(epstopdf)             Command: <epstopdf --outfile=tabfig/evstu_snap_t_total_p
-op_yrcfsttr_5_3-eps-converted-to.pdf tabfig/evstu_snap_t_total_pop_yrcfsttr_5_3
-.eps>
-(epstopdf)             \includegraphics on input line 143.
-Package epstopdf Info: Output file is already uptodate.
-
-<tabfig/evstu_snap_t_total_pop_yrcfsttr_5_3-eps-converted-to.pdf, id=35, 397.48
-5pt x 289.08pt>
-File: tabfig/evstu_snap_t_total_pop_yrcfsttr_5_3-eps-converted-to.pdf Graphic f
-ile (type pdf)
-
-<use tabfig/evstu_snap_t_total_pop_yrcfsttr_5_3-eps-converted-to.pdf>
-Package pdftex.def Info: tabfig/evstu_snap_t_total_pop_yrcfsttr_5_3-eps-convert
-ed-to.pdf used on input line 143.
-(pdftex.def)             Requested size: 226.5688pt x 164.7773pt.
-
-Overfull \hbox (7.38258pt too wide) in paragraph at lines 140--146
-[][] 
- []
-
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 147.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 116.
 [1
 
 {C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <C:/Users/mgrosz/Documents
@@ -1800,60 +1526,43 @@ onverted-to.pdf> <C:/Users/mgrosz/Documents/GitHub/snapapp/output/tabfig/evstu_
 bea_snap_one_yrcfsttr_5_3-eps-converted-to.pdf> <C:/Users/mgrosz/Documents/GitH
 ub/snapapp/output/tabfig/evstu_bea_snap_one_yrcfcttru_5_3-eps-converted-to.pdf>
  <C:/Users/mgrosz/Documents/GitHub/snapapp/output/tabfig/evstu_bea_snap_total_p
-op_yrcfcttru_5_3-eps-converted-to.pdf>] [3 <C:/Users/mgrosz/Documents/GitHub/sn
-apapp/output/tabfig/evstu_snap_h_tot_one_notr_5_3-eps-converted-to.pdf> <C:/Use
-rs/mgrosz/Documents/GitHub/snapapp/output/tabfig/evstu_snap_h_tot_one_year_5_3-
-eps-converted-to.pdf> <C:/Users/mgrosz/Documents/GitHub/snapapp/output/tabfig/e
-vstu_snap_h_tot_one_yrcf_5_3-eps-converted-to.pdf> <C:/Users/mgrosz/Documents/G
-itHub/snapapp/output/tabfig/evstu_snap_h_tot_one_yrcfsttr_5_3-eps-converted-to.
-pdf>] [4 <C:/Users/mgrosz/Documents/GitHub/snapapp/output/tabfig/evstu_snap_p_t
-ot_one_notr_5_3-eps-converted-to.pdf> <C:/Users/mgrosz/Documents/GitHub/snapapp
-/output/tabfig/evstu_snap_p_tot_one_year_5_3-eps-converted-to.pdf> <C:/Users/mg
-rosz/Documents/GitHub/snapapp/output/tabfig/evstu_snap_p_tot_one_yrcf_5_3-eps-c
-onverted-to.pdf> <C:/Users/mgrosz/Documents/GitHub/snapapp/output/tabfig/evstu_
-snap_p_tot_one_yrcfsttr_5_3-eps-converted-to.pdf>] [5 <C:/Users/mgrosz/Document
-s/GitHub/snapapp/output/tabfig/evstu_snap_t_one_notr_5_3-eps-converted-to.pdf> 
-<C:/Users/mgrosz/Documents/GitHub/snapapp/output/tabfig/evstu_snap_t_one_year_5
-_3-eps-converted-to.pdf> <C:/Users/mgrosz/Documents/GitHub/snapapp/output/tabfi
-g/evstu_snap_t_one_yrcf_5_3-eps-converted-to.pdf> <C:/Users/mgrosz/Documents/Gi
-tHub/snapapp/output/tabfig/evstu_snap_t_one_yrcfsttr_5_3-eps-converted-to.pdf>]
- [6 <C:/Users/mgrosz/Documents/GitHub/snapapp/output/tabfig/evstu_bea_snap_tota
-l_pop_notr_5_3-eps-converted-to.pdf> <C:/Users/mgrosz/Documents/GitHub/snapapp/
-output/tabfig/evstu_bea_snap_total_pop_year_5_3-eps-converted-to.pdf> <C:/Users
-/mgrosz/Documents/GitHub/snapapp/output/tabfig/evstu_bea_snap_total_pop_yrcf_5_
-3-eps-converted-to.pdf> <C:/Users/mgrosz/Documents/GitHub/snapapp/output/tabfig
-/evstu_bea_snap_total_pop_yrcfsttr_5_3-eps-converted-to.pdf>] [7 <C:/Users/mgro
-sz/Documents/GitHub/snapapp/output/tabfig/evstu_snap_h_tot_total_pop_notr_5_3-e
-ps-converted-to.pdf> <C:/Users/mgrosz/Documents/GitHub/snapapp/output/tabfig/ev
-stu_snap_h_tot_total_pop_year_5_3-eps-converted-to.pdf> <C:/Users/mgrosz/Docume
-nts/GitHub/snapapp/output/tabfig/evstu_snap_h_tot_total_pop_yrcf_5_3-eps-conver
-ted-to.pdf> <C:/Users/mgrosz/Documents/GitHub/snapapp/output/tabfig/evstu_snap_
-h_tot_total_pop_yrcfsttr_5_3-eps-converted-to.pdf>] [8 <C:/Users/mgrosz/Documen
-ts/GitHub/snapapp/output/tabfig/evstu_snap_p_tot_total_pop_notr_5_3-eps-convert
-ed-to.pdf> <C:/Users/mgrosz/Documents/GitHub/snapapp/output/tabfig/evstu_snap_p
-_tot_total_pop_year_5_3-eps-converted-to.pdf> <C:/Users/mgrosz/Documents/GitHub
-/snapapp/output/tabfig/evstu_snap_p_tot_total_pop_yrcf_5_3-eps-converted-to.pdf
-> <C:/Users/mgrosz/Documents/GitHub/snapapp/output/tabfig/evstu_snap_p_tot_tota
-l_pop_yrcfsttr_5_3-eps-converted-to.pdf>] [9 <C:/Users/mgrosz/Documents/GitHub/
-snapapp/output/tabfig/evstu_snap_t_total_pop_notr_5_3-eps-converted-to.pdf> <C:
-/Users/mgrosz/Documents/GitHub/snapapp/output/tabfig/evstu_snap_t_total_pop_yea
-r_5_3-eps-converted-to.pdf> <C:/Users/mgrosz/Documents/GitHub/snapapp/output/ta
-bfig/evstu_snap_t_total_pop_yrcf_5_3-eps-converted-to.pdf> <C:/Users/mgrosz/Doc
-uments/GitHub/snapapp/output/tabfig/evstu_snap_t_total_pop_yrcfsttr_5_3-eps-con
-verted-to.pdf>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 147.
+op_yrcfcttru_5_3-eps-converted-to.pdf> <C:/Users/mgrosz/Documents/GitHub/snapap
+p/output/tabfig/evstu_bea_snap_one_yrcfcttrunor_5_3-eps-converted-to.pdf>]
+[3 <C:/Users/mgrosz/Documents/GitHub/snapapp/output/tabfig/evstu_snap_h_tot_one
+_yrcf_5_3-eps-converted-to.pdf> <C:/Users/mgrosz/Documents/GitHub/snapapp/outpu
+t/tabfig/evstu_snap_h_tot_one_yrcfsttr_5_3-eps-converted-to.pdf> <C:/Users/mgro
+sz/Documents/GitHub/snapapp/output/tabfig/evstu_snap_h_tot_one_yrcfcttru_5_3-ep
+s-converted-to.pdf> <C:/Users/mgrosz/Documents/GitHub/snapapp/output/tabfig/evs
+tu_snap_h_tot_total_pop_yrcfcttru_5_3-eps-converted-to.pdf> <C:/Users/mgrosz/Do
+cuments/GitHub/snapapp/output/tabfig/evstu_snap_h_tot_one_yrcfcttrunor_5_3-eps-
+converted-to.pdf>] [4 <C:/Users/mgrosz/Documents/GitHub/snapapp/output/tabfig/e
+vstu_snap_p_tot_one_yrcf_5_3-eps-converted-to.pdf> <C:/Users/mgrosz/Documents/G
+itHub/snapapp/output/tabfig/evstu_snap_p_tot_one_yrcfsttr_5_3-eps-converted-to.
+pdf> <C:/Users/mgrosz/Documents/GitHub/snapapp/output/tabfig/evstu_snap_p_tot_o
+ne_yrcfcttru_5_3-eps-converted-to.pdf> <C:/Users/mgrosz/Documents/GitHub/snapap
+p/output/tabfig/evstu_snap_p_tot_total_pop_yrcfcttru_5_3-eps-converted-to.pdf> 
+<C:/Users/mgrosz/Documents/GitHub/snapapp/output/tabfig/evstu_snap_p_tot_one_yr
+cfcttrunor_5_3-eps-converted-to.pdf>] [5 <C:/Users/mgrosz/Documents/GitHub/snap
+app/output/tabfig/evstu_snap_t_one_yrcf_5_3-eps-converted-to.pdf> <C:/Users/mgr
+osz/Documents/GitHub/snapapp/output/tabfig/evstu_snap_t_one_yrcfsttr_5_3-eps-co
+nverted-to.pdf> <C:/Users/mgrosz/Documents/GitHub/snapapp/output/tabfig/evstu_s
+nap_t_one_yrcfcttru_5_3-eps-converted-to.pdf> <C:/Users/mgrosz/Documents/GitHub
+/snapapp/output/tabfig/evstu_snap_t_total_pop_yrcfcttru_5_3-eps-converted-to.pd
+f> <C:/Users/mgrosz/Documents/GitHub/snapapp/output/tabfig/evstu_snap_t_one_yrc
+fcttrunor_5_3-eps-converted-to.pdf>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 116.
 
 (C:\Users\mgrosz\Documents\GitHub\snapapp\output\snapapp_tabfig.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 147.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 147.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 116.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 116.
 Package rerunfilecheck Info: File `snapapp_tabfig.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 12835 strings out of 494045
- 199834 string characters out of 3145966
- 316305 words of memory out of 3000000
- 15812 multiletter control sequences out of 15000+200000
+ 12767 strings out of 494045
+ 196316 string characters out of 3145966
+ 312305 words of memory out of 3000000
+ 15764 multiletter control sequences out of 15000+200000
  45123 words of font info for 120 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
  44i,13n,42p,382b,348s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1861,9 +1570,9 @@ Here is how much of TeX's memory you used:
 }{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program
  Files (x86)/MiKTeX 2.9/fonts/type1/public/kpfonts/jkpmn8a.pfb><C:/Program File
 s (x86)/MiKTeX 2.9/fonts/type1/public/kpfonts/jkpmne.pfb>
-Output written on snapapp_tabfig.pdf (9 pages, 130629 bytes).
+Output written on snapapp_tabfig.pdf (5 pages, 90700 bytes).
 PDF statistics:
- 230 PDF objects out of 1000 (max. 8388607)
- 18 named destinations out of 1000 (max. 500000)
- 23718 words of extra memory for PDF output out of 24883 (max. 10000000)
+ 147 PDF objects out of 1000 (max. 8388607)
+ 10 named destinations out of 1000 (max. 500000)
+ 23658 words of extra memory for PDF output out of 24883 (max. 10000000)
 

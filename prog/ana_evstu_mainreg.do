@@ -94,7 +94,7 @@ foreach out in $outlist{
 *Only ever-adopters
 ***************************************************	
 	*nothing
-	reg ln_`out'  onapp_p*  [weight=`weight'] if onlineapp_ever==1 & year>1996, cluster(fips) 
+	reg ln_`out'  onapp_l* onapp_pr1-onapp_pr`pre' onapp_po1-onapp_po`post'   [weight=`weight'] if onlineapp_ever==1 & year>1996, cluster(fips) 
 		mat a=0,0,0
 		forvalues y=1/`pre'{
 			mat z=-`y',_b[onapp_pr`y'], _se[onapp_pr`y']
@@ -106,7 +106,7 @@ foreach out in $outlist{
 			}
 		mat a`weight'_notr_`pre'_`post'=a
 	*year
-	reg ln_`out' i.year onapp_p*  [weight=`weight'] if onlineapp_ever==1 & year>1996, cluster(fips) 
+	reg ln_`out' i.year onapp_l* onapp_pr1-onapp_pr`pre' onapp_po1-onapp_po`post'   [weight=`weight'] if onlineapp_ever==1 & year>1996, cluster(fips) 
 		mat a=0,0,0
 		forvalues y=1/`pre'{
 			mat z=-`y',_b[onapp_pr`y'], _se[onapp_pr`y']
@@ -118,7 +118,7 @@ foreach out in $outlist{
 			}
 		mat a`weight'_year_`pre'_`post'=a		
 	*year+county FE
-	areg ln_`out' i.year onapp_p*  [weight=`weight'] if onlineapp_ever==1 & year>1996, cluster(fips) absorb(fips)
+	areg ln_`out' i.year onapp_l* onapp_pr1-onapp_pr`pre' onapp_po1-onapp_po`post'   [weight=`weight'] if onlineapp_ever==1 & year>1996, cluster(fips) absorb(fips)
 		mat a=0,0,0
 		forvalues y=1/`pre'{
 			mat z=-`y',_b[onapp_pr`y'], _se[onapp_pr`y']
@@ -130,7 +130,7 @@ foreach out in $outlist{
 			}
 		mat a`weight'_yrcf_`pre'_`post'=a
 	*year+county FE+state trend
-	areg ln_`out' i.year statetr* onapp_p*  [weight=`weight'] if onlineapp_ever==1 & year>1996, cluster(fips) absorb(fips)
+	areg ln_`out' i.year statetr* onapp_l* onapp_pr1-onapp_pr`pre' onapp_po1-onapp_po`post'   [weight=`weight'] if onlineapp_ever==1 & year>1996, cluster(fips) absorb(fips)
 		mat a=0,0,0
 		forvalues y=1/`pre'{
 			mat z=-`y',_b[onapp_pr`y'], _se[onapp_pr`y']
@@ -142,7 +142,7 @@ foreach out in $outlist{
 			}
 		mat a`weight'_yrcfsttr_`pre'_`post'=a
 	*year+county FE+county trend
-	areg ln_`out' i.year ctytr* onapp_p*  [weight=`weight'] if onlineapp_ever==1 & year>1996, cluster(fips) absorb(fips)
+	areg ln_`out' i.year ctytr* onapp_l* onapp_pr1-onapp_pr`pre' onapp_po1-onapp_po`post'   [weight=`weight'] if onlineapp_ever==1 & year>1996, cluster(fips) absorb(fips)
 		mat a=0,0,0
 		forvalues y=1/`pre'{
 			mat z=-`y',_b[onapp_pr`y'], _se[onapp_pr`y']
@@ -155,7 +155,7 @@ foreach out in $outlist{
 		mat a`weight'_yrcfcttr_`pre'_`post'=a
 	
 	*year+county FE+county trend
-	areg ln_`out' i.year ctytr* onapp_p* l.bea_ui  [weight=`weight'] if onlineapp_ever==1 & year>1996, cluster(fips) absorb(fips)
+	areg ln_`out' i.year ctytr* onapp_l* onapp_pr1-onapp_pr`pre' onapp_po1-onapp_po`post'  l.bea_ui  [weight=`weight'] if onlineapp_ever==1 & year>1996, cluster(fips) absorb(fips)
 		mat a=0,0,0
 		forvalues y=1/`pre'{
 			mat z=-`y',_b[onapp_pr`y'], _se[onapp_pr`y']
@@ -168,7 +168,7 @@ foreach out in $outlist{
 		mat a`weight'_yrcfcttru_`pre'_`post'=a
 	
 	*year+county FE+county trend, drop 2008-2011
-	areg ln_`out' i.year ctytr* onapp_p* l.bea_ui  [weight=`weight'] if onlineapp_ever==1 & year>1996 & inlist(year,2008,2009,2010,2011)==0, cluster(fips) absorb(fips)
+	areg ln_`out' i.year ctytr* onapp_l* onapp_pr1-onapp_pr`pre' onapp_po1-onapp_po`post'  l.bea_ui  [weight=`weight'] if onlineapp_ever==1 & year>1996 & inlist(year,2008,2009,2010,2011)==0, cluster(fips) absorb(fips)
 		mat a=0,0,0
 		forvalues y=1/`pre'{
 			mat z=-`y',_b[onapp_pr`y'], _se[onapp_pr`y']
