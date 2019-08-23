@@ -190,7 +190,7 @@ foreach out in $outlist{
 			gen u=b+1.96*se
 			gen l=b-1.96*se
 			sort y
-			serrbar b se y,  xlabel(-`pre'(1)`post') xscale(r(-`pre'(1)`post')) yline(0,lcolor(black)) lpattern(solid dash dash) `figbacks' legend(off) ytitle("ln(`out')") xtitle("Years Since Online Application")
+			serrbar b se y, scale(1.96)  xlabel(-`pre'(1)`post') xscale(r(-`pre'(1)`post')) yline(0,lcolor(black)) lpattern(solid dash dash) `figbacks' legend(off) ytitle("ln(`out')") xtitle("Years Since Online Application")
 				graph export "$out/evstu_`out'_`weight'_`g'_`pre'_`post'.eps", replace
 				restore
 				}
