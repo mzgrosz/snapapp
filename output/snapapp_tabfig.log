@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2019.7.22)  23 AUG 2019 09:24
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2019.7.22)  26 AUG 2019 11:00
 entering extended mode
 **C:/Users/mgrosz/Documents/GitHub/snapapp/output/snapapp_tabfig.tex
 (C:/Users/mgrosz/Documents/GitHub/snapapp/output/snapapp_tabfig.tex
@@ -1039,41 +1039,40 @@ LaTeX Font Info:    Try loading font information for U+jkpsyc on input line 48.
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\kpfonts\ujkpsyc.fd"
 File: ujkpsyc.fd 2006/08/15 v1.0
 )
-Package epstopdf Info: Source file: <tabfig/rolloutgraph.eps>
-(epstopdf)                    date: 2019-07-26 13:13:32
-(epstopdf)                    size: 21838 bytes
-(epstopdf)             Output file: <tabfig/rolloutgraph-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-07-26 13:46:47
-(epstopdf)                    size: 8962 bytes
-(epstopdf)             Command: <epstopdf --outfile=tabfig/rolloutgraph-eps-con
-verted-to.pdf tabfig/rolloutgraph.eps>
+Package epstopdf Info: Source file: <tabfig/rolloutgraph_share.eps>
+(epstopdf)                    date: 2019-08-26 10:59:32
+(epstopdf)                    size: 22701 bytes
+(epstopdf)             Output file: <tabfig/rolloutgraph_share-eps-converted-to
+.pdf>
+(epstopdf)             Command: <epstopdf --outfile=tabfig/rolloutgraph_share-e
+ps-converted-to.pdf tabfig/rolloutgraph_share.eps>
 (epstopdf)             \includegraphics on input line 50.
-Package epstopdf Info: Output file is already uptodate.
+runsystem(epstopdf --outfile=tabfig/rolloutgraph_share-eps-converted-to.pdf tab
+fig/rolloutgraph_share.eps)...executed (allowed).
 
-<tabfig/rolloutgraph-eps-converted-to.pdf, id=3, 397.485pt x 289.08pt>
-File: tabfig/rolloutgraph-eps-converted-to.pdf Graphic file (type pdf)
+Package epstopdf Info: Result file: <tabfig/rolloutgraph_share-eps-converted-to
+.pdf>
+(epstopdf)                    date: 2019-08-26 11:00:04
+(epstopdf)                    size: 8972 bytes.
 
-<use tabfig/rolloutgraph-eps-converted-to.pdf>
-Package pdftex.def Info: tabfig/rolloutgraph-eps-converted-to.pdf used on input
- line 50.
+<tabfig/rolloutgraph_share-eps-converted-to.pdf, id=3, 397.485pt x 289.08pt>
+File: tabfig/rolloutgraph_share-eps-converted-to.pdf Graphic file (type pdf)
+
+<use tabfig/rolloutgraph_share-eps-converted-to.pdf>
+Package pdftex.def Info: tabfig/rolloutgraph_share-eps-converted-to.pdf used on
+ input line 50.
 (pdftex.def)             Requested size: 397.48402pt x 289.07928pt.
 Package epstopdf Info: Source file: <tabfig/evstu_bea_snap_one_yrcf_5_3.eps>
 (epstopdf)                    date: 2019-08-22 22:59:44
 (epstopdf)                    size: 16819 bytes
 (epstopdf)             Output file: <tabfig/evstu_bea_snap_one_yrcf_5_3-eps-con
 verted-to.pdf>
-(epstopdf)                    date: 2019-07-29 10:39:17
-(epstopdf)                    size: 4672 bytes
+(epstopdf)                    date: 2019-08-23 09:24:31
+(epstopdf)                    size: 4683 bytes
 (epstopdf)             Command: <epstopdf --outfile=tabfig/evstu_bea_snap_one_y
 rcf_5_3-eps-converted-to.pdf tabfig/evstu_bea_snap_one_yrcf_5_3.eps>
 (epstopdf)             \includegraphics on input line 70.
-runsystem(epstopdf --outfile=tabfig/evstu_bea_snap_one_yrcf_5_3-eps-converted-t
-o.pdf tabfig/evstu_bea_snap_one_yrcf_5_3.eps)...executed (allowed).
-
-Package epstopdf Info: Result file: <tabfig/evstu_bea_snap_one_yrcf_5_3-eps-con
-verted-to.pdf>
-(epstopdf)                    date: 2019-08-23 09:24:31
-(epstopdf)                    size: 4683 bytes.
+Package epstopdf Info: Output file is already uptodate.
 
 <tabfig/evstu_bea_snap_one_yrcf_5_3-eps-converted-to.pdf, id=4, 397.485pt x 289
 .08pt>
@@ -1089,18 +1088,12 @@ Package epstopdf Info: Source file: <tabfig/evstu_bea_snap_one_yrcfsttr_5_3.eps
 (epstopdf)                    size: 16806 bytes
 (epstopdf)             Output file: <tabfig/evstu_bea_snap_one_yrcfsttr_5_3-eps
 -converted-to.pdf>
-(epstopdf)                    date: 2019-07-29 10:39:18
-(epstopdf)                    size: 4681 bytes
+(epstopdf)                    date: 2019-08-23 09:24:32
+(epstopdf)                    size: 4692 bytes
 (epstopdf)             Command: <epstopdf --outfile=tabfig/evstu_bea_snap_one_y
 rcfsttr_5_3-eps-converted-to.pdf tabfig/evstu_bea_snap_one_yrcfsttr_5_3.eps>
 (epstopdf)             \includegraphics on input line 70.
-runsystem(epstopdf --outfile=tabfig/evstu_bea_snap_one_yrcfsttr_5_3-eps-convert
-ed-to.pdf tabfig/evstu_bea_snap_one_yrcfsttr_5_3.eps)...executed (allowed).
-
-Package epstopdf Info: Result file: <tabfig/evstu_bea_snap_one_yrcfsttr_5_3-eps
--converted-to.pdf>
-(epstopdf)                    date: 2019-08-23 09:24:32
-(epstopdf)                    size: 4692 bytes.
+Package epstopdf Info: Output file is already uptodate.
 
 <tabfig/evstu_bea_snap_one_yrcfsttr_5_3-eps-converted-to.pdf, id=5, 397.485pt x
  289.08pt>
@@ -1116,18 +1109,12 @@ s>
 (epstopdf)                    size: 17229 bytes
 (epstopdf)             Output file: <tabfig/evstu_bea_snap_one_yrcfcttru_5_3-ep
 s-converted-to.pdf>
-(epstopdf)                    date: 2019-07-29 10:39:21
-(epstopdf)                    size: 4685 bytes
+(epstopdf)                    date: 2019-08-23 09:24:32
+(epstopdf)                    size: 4705 bytes
 (epstopdf)             Command: <epstopdf --outfile=tabfig/evstu_bea_snap_one_y
 rcfcttru_5_3-eps-converted-to.pdf tabfig/evstu_bea_snap_one_yrcfcttru_5_3.eps>
 (epstopdf)             \includegraphics on input line 72.
-runsystem(epstopdf --outfile=tabfig/evstu_bea_snap_one_yrcfcttru_5_3-eps-conver
-ted-to.pdf tabfig/evstu_bea_snap_one_yrcfcttru_5_3.eps)...executed (allowed).
-
-Package epstopdf Info: Result file: <tabfig/evstu_bea_snap_one_yrcfcttru_5_3-ep
-s-converted-to.pdf>
-(epstopdf)                    date: 2019-08-23 09:24:32
-(epstopdf)                    size: 4705 bytes.
+Package epstopdf Info: Output file is already uptodate.
 
 <tabfig/evstu_bea_snap_one_yrcfcttru_5_3-eps-converted-to.pdf, id=6, 397.485pt 
 x 289.08pt>
@@ -1166,20 +1153,13 @@ Package epstopdf Info: Source file: <tabfig/evstu_bea_snap_one_yrcfcttrunor_5_3
 (epstopdf)                    size: 16800 bytes
 (epstopdf)             Output file: <tabfig/evstu_bea_snap_one_yrcfcttrunor_5_3
 -eps-converted-to.pdf>
-(epstopdf)                    date: 2019-07-29 10:39:23
-(epstopdf)                    size: 4654 bytes
+(epstopdf)                    date: 2019-08-23 09:24:33
+(epstopdf)                    size: 4699 bytes
 (epstopdf)             Command: <epstopdf --outfile=tabfig/evstu_bea_snap_one_y
 rcfcttrunor_5_3-eps-converted-to.pdf tabfig/evstu_bea_snap_one_yrcfcttrunor_5_3
 .eps>
 (epstopdf)             \includegraphics on input line 74.
-runsystem(epstopdf --outfile=tabfig/evstu_bea_snap_one_yrcfcttrunor_5_3-eps-con
-verted-to.pdf tabfig/evstu_bea_snap_one_yrcfcttrunor_5_3.eps)...executed (allow
-ed).
-
-Package epstopdf Info: Result file: <tabfig/evstu_bea_snap_one_yrcfcttrunor_5_3
--eps-converted-to.pdf>
-(epstopdf)                    date: 2019-08-23 09:24:33
-(epstopdf)                    size: 4699 bytes.
+Package epstopdf Info: Output file is already uptodate.
 
 <tabfig/evstu_bea_snap_one_yrcfcttrunor_5_3-eps-converted-to.pdf, id=8, 397.485
 pt x 289.08pt>
@@ -1200,18 +1180,12 @@ Package epstopdf Info: Source file: <tabfig/evstu_snap_h_tot_one_yrcf_5_3.eps>
 (epstopdf)                    size: 16822 bytes
 (epstopdf)             Output file: <tabfig/evstu_snap_h_tot_one_yrcf_5_3-eps-c
 onverted-to.pdf>
-(epstopdf)                    date: 2019-07-29 10:39:25
-(epstopdf)                    size: 4684 bytes
+(epstopdf)                    date: 2019-08-23 09:24:33
+(epstopdf)                    size: 4678 bytes
 (epstopdf)             Command: <epstopdf --outfile=tabfig/evstu_snap_h_tot_one
 _yrcf_5_3-eps-converted-to.pdf tabfig/evstu_snap_h_tot_one_yrcf_5_3.eps>
 (epstopdf)             \includegraphics on input line 81.
-runsystem(epstopdf --outfile=tabfig/evstu_snap_h_tot_one_yrcf_5_3-eps-converted
--to.pdf tabfig/evstu_snap_h_tot_one_yrcf_5_3.eps)...executed (allowed).
-
-Package epstopdf Info: Result file: <tabfig/evstu_snap_h_tot_one_yrcf_5_3-eps-c
-onverted-to.pdf>
-(epstopdf)                    date: 2019-08-23 09:24:33
-(epstopdf)                    size: 4678 bytes.
+Package epstopdf Info: Output file is already uptodate.
 
 <tabfig/evstu_snap_h_tot_one_yrcf_5_3-eps-converted-to.pdf, id=9, 397.485pt x 2
 89.08pt>
@@ -1227,19 +1201,13 @@ ps>
 (epstopdf)                    size: 16817 bytes
 (epstopdf)             Output file: <tabfig/evstu_snap_h_tot_one_yrcfsttr_5_3-e
 ps-converted-to.pdf>
-(epstopdf)                    date: 2019-07-29 10:39:26
-(epstopdf)                    size: 4674 bytes
+(epstopdf)                    date: 2019-08-23 09:24:34
+(epstopdf)                    size: 4677 bytes
 (epstopdf)             Command: <epstopdf --outfile=tabfig/evstu_snap_h_tot_one
 _yrcfsttr_5_3-eps-converted-to.pdf tabfig/evstu_snap_h_tot_one_yrcfsttr_5_3.eps
 >
 (epstopdf)             \includegraphics on input line 81.
-runsystem(epstopdf --outfile=tabfig/evstu_snap_h_tot_one_yrcfsttr_5_3-eps-conve
-rted-to.pdf tabfig/evstu_snap_h_tot_one_yrcfsttr_5_3.eps)...executed (allowed).
-
-Package epstopdf Info: Result file: <tabfig/evstu_snap_h_tot_one_yrcfsttr_5_3-e
-ps-converted-to.pdf>
-(epstopdf)                    date: 2019-08-23 09:24:34
-(epstopdf)                    size: 4677 bytes.
+Package epstopdf Info: Output file is already uptodate.
 
 <tabfig/evstu_snap_h_tot_one_yrcfsttr_5_3-eps-converted-to.pdf, id=10, 397.485p
 t x 289.08pt>
@@ -1256,20 +1224,13 @@ eps>
 (epstopdf)                    size: 16820 bytes
 (epstopdf)             Output file: <tabfig/evstu_snap_h_tot_one_yrcfcttru_5_3-
 eps-converted-to.pdf>
-(epstopdf)                    date: 2019-07-29 10:39:27
-(epstopdf)                    size: 4663 bytes
+(epstopdf)                    date: 2019-08-23 09:24:34
+(epstopdf)                    size: 4694 bytes
 (epstopdf)             Command: <epstopdf --outfile=tabfig/evstu_snap_h_tot_one
 _yrcfcttru_5_3-eps-converted-to.pdf tabfig/evstu_snap_h_tot_one_yrcfcttru_5_3.e
 ps>
 (epstopdf)             \includegraphics on input line 83.
-runsystem(epstopdf --outfile=tabfig/evstu_snap_h_tot_one_yrcfcttru_5_3-eps-conv
-erted-to.pdf tabfig/evstu_snap_h_tot_one_yrcfcttru_5_3.eps)...executed (allowed
-).
-
-Package epstopdf Info: Result file: <tabfig/evstu_snap_h_tot_one_yrcfcttru_5_3-
-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-08-23 09:24:34
-(epstopdf)                    size: 4694 bytes.
+Package epstopdf Info: Output file is already uptodate.
 
 <tabfig/evstu_snap_h_tot_one_yrcfcttru_5_3-eps-converted-to.pdf, id=11, 397.485
 pt x 289.08pt>
@@ -1309,20 +1270,13 @@ _3.eps>
 (epstopdf)                    size: 16385 bytes
 (epstopdf)             Output file: <tabfig/evstu_snap_h_tot_one_yrcfcttrunor_5
 _3-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-07-29 10:39:31
-(epstopdf)                    size: 4658 bytes
+(epstopdf)                    date: 2019-08-23 09:24:35
+(epstopdf)                    size: 4667 bytes
 (epstopdf)             Command: <epstopdf --outfile=tabfig/evstu_snap_h_tot_one
 _yrcfcttrunor_5_3-eps-converted-to.pdf tabfig/evstu_snap_h_tot_one_yrcfcttrunor
 _5_3.eps>
 (epstopdf)             \includegraphics on input line 85.
-runsystem(epstopdf --outfile=tabfig/evstu_snap_h_tot_one_yrcfcttrunor_5_3-eps-c
-onverted-to.pdf tabfig/evstu_snap_h_tot_one_yrcfcttrunor_5_3.eps)...executed (a
-llowed).
-
-Package epstopdf Info: Result file: <tabfig/evstu_snap_h_tot_one_yrcfcttrunor_5
-_3-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-08-23 09:24:35
-(epstopdf)                    size: 4667 bytes.
+Package epstopdf Info: Output file is already uptodate.
 
 <tabfig/evstu_snap_h_tot_one_yrcfcttrunor_5_3-eps-converted-to.pdf, id=13, 397.
 485pt x 289.08pt>
@@ -1343,18 +1297,12 @@ Package epstopdf Info: Source file: <tabfig/evstu_snap_p_tot_one_yrcf_5_3.eps>
 (epstopdf)                    size: 16817 bytes
 (epstopdf)             Output file: <tabfig/evstu_snap_p_tot_one_yrcf_5_3-eps-c
 onverted-to.pdf>
-(epstopdf)                    date: 2019-07-29 10:39:34
-(epstopdf)                    size: 4668 bytes
+(epstopdf)                    date: 2019-08-23 09:24:35
+(epstopdf)                    size: 4676 bytes
 (epstopdf)             Command: <epstopdf --outfile=tabfig/evstu_snap_p_tot_one
 _yrcf_5_3-eps-converted-to.pdf tabfig/evstu_snap_p_tot_one_yrcf_5_3.eps>
 (epstopdf)             \includegraphics on input line 93.
-runsystem(epstopdf --outfile=tabfig/evstu_snap_p_tot_one_yrcf_5_3-eps-converted
--to.pdf tabfig/evstu_snap_p_tot_one_yrcf_5_3.eps)...executed (allowed).
-
-Package epstopdf Info: Result file: <tabfig/evstu_snap_p_tot_one_yrcf_5_3-eps-c
-onverted-to.pdf>
-(epstopdf)                    date: 2019-08-23 09:24:35
-(epstopdf)                    size: 4676 bytes.
+Package epstopdf Info: Output file is already uptodate.
 
 <tabfig/evstu_snap_p_tot_one_yrcf_5_3-eps-converted-to.pdf, id=14, 397.485pt x 
 289.08pt>
@@ -1370,19 +1318,13 @@ ps>
 (epstopdf)                    size: 16823 bytes
 (epstopdf)             Output file: <tabfig/evstu_snap_p_tot_one_yrcfsttr_5_3-e
 ps-converted-to.pdf>
-(epstopdf)                    date: 2019-07-29 10:39:36
-(epstopdf)                    size: 4697 bytes
+(epstopdf)                    date: 2019-08-23 09:24:36
+(epstopdf)                    size: 4680 bytes
 (epstopdf)             Command: <epstopdf --outfile=tabfig/evstu_snap_p_tot_one
 _yrcfsttr_5_3-eps-converted-to.pdf tabfig/evstu_snap_p_tot_one_yrcfsttr_5_3.eps
 >
 (epstopdf)             \includegraphics on input line 93.
-runsystem(epstopdf --outfile=tabfig/evstu_snap_p_tot_one_yrcfsttr_5_3-eps-conve
-rted-to.pdf tabfig/evstu_snap_p_tot_one_yrcfsttr_5_3.eps)...executed (allowed).
-
-Package epstopdf Info: Result file: <tabfig/evstu_snap_p_tot_one_yrcfsttr_5_3-e
-ps-converted-to.pdf>
-(epstopdf)                    date: 2019-08-23 09:24:36
-(epstopdf)                    size: 4680 bytes.
+Package epstopdf Info: Output file is already uptodate.
 
 <tabfig/evstu_snap_p_tot_one_yrcfsttr_5_3-eps-converted-to.pdf, id=15, 397.485p
 t x 289.08pt>
@@ -1399,20 +1341,13 @@ eps>
 (epstopdf)                    size: 16826 bytes
 (epstopdf)             Output file: <tabfig/evstu_snap_p_tot_one_yrcfcttru_5_3-
 eps-converted-to.pdf>
-(epstopdf)                    date: 2019-07-29 10:39:38
-(epstopdf)                    size: 4683 bytes
+(epstopdf)                    date: 2019-08-23 09:24:36
+(epstopdf)                    size: 4692 bytes
 (epstopdf)             Command: <epstopdf --outfile=tabfig/evstu_snap_p_tot_one
 _yrcfcttru_5_3-eps-converted-to.pdf tabfig/evstu_snap_p_tot_one_yrcfcttru_5_3.e
 ps>
 (epstopdf)             \includegraphics on input line 95.
-runsystem(epstopdf --outfile=tabfig/evstu_snap_p_tot_one_yrcfcttru_5_3-eps-conv
-erted-to.pdf tabfig/evstu_snap_p_tot_one_yrcfcttru_5_3.eps)...executed (allowed
-).
-
-Package epstopdf Info: Result file: <tabfig/evstu_snap_p_tot_one_yrcfcttru_5_3-
-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-08-23 09:24:36
-(epstopdf)                    size: 4692 bytes.
+Package epstopdf Info: Output file is already uptodate.
 
 <tabfig/evstu_snap_p_tot_one_yrcfcttru_5_3-eps-converted-to.pdf, id=16, 397.485
 pt x 289.08pt>
@@ -1429,20 +1364,13 @@ u_5_3.eps>
 (epstopdf)                    size: 16782 bytes
 (epstopdf)             Output file: <tabfig/evstu_snap_p_tot_total_pop_yrcfcttr
 u_5_3-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-07-29 10:39:40
-(epstopdf)                    size: 4656 bytes
+(epstopdf)                    date: 2019-08-23 09:24:37
+(epstopdf)                    size: 4694 bytes
 (epstopdf)             Command: <epstopdf --outfile=tabfig/evstu_snap_p_tot_tot
 al_pop_yrcfcttru_5_3-eps-converted-to.pdf tabfig/evstu_snap_p_tot_total_pop_yrc
 fcttru_5_3.eps>
 (epstopdf)             \includegraphics on input line 95.
-runsystem(epstopdf --outfile=tabfig/evstu_snap_p_tot_total_pop_yrcfcttru_5_3-ep
-s-converted-to.pdf tabfig/evstu_snap_p_tot_total_pop_yrcfcttru_5_3.eps)...execu
-ted (allowed).
-
-Package epstopdf Info: Result file: <tabfig/evstu_snap_p_tot_total_pop_yrcfcttr
-u_5_3-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-08-23 09:24:37
-(epstopdf)                    size: 4694 bytes.
+Package epstopdf Info: Output file is already uptodate.
 
 <tabfig/evstu_snap_p_tot_total_pop_yrcfcttru_5_3-eps-converted-to.pdf, id=17, 3
 97.485pt x 289.08pt>
@@ -1459,20 +1387,13 @@ _3.eps>
 (epstopdf)                    size: 16388 bytes
 (epstopdf)             Output file: <tabfig/evstu_snap_p_tot_one_yrcfcttrunor_5
 _3-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-07-29 10:39:42
-(epstopdf)                    size: 4670 bytes
+(epstopdf)                    date: 2019-08-23 09:24:37
+(epstopdf)                    size: 4675 bytes
 (epstopdf)             Command: <epstopdf --outfile=tabfig/evstu_snap_p_tot_one
 _yrcfcttrunor_5_3-eps-converted-to.pdf tabfig/evstu_snap_p_tot_one_yrcfcttrunor
 _5_3.eps>
 (epstopdf)             \includegraphics on input line 97.
-runsystem(epstopdf --outfile=tabfig/evstu_snap_p_tot_one_yrcfcttrunor_5_3-eps-c
-onverted-to.pdf tabfig/evstu_snap_p_tot_one_yrcfcttrunor_5_3.eps)...executed (a
-llowed).
-
-Package epstopdf Info: Result file: <tabfig/evstu_snap_p_tot_one_yrcfcttrunor_5
-_3-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-08-23 09:24:37
-(epstopdf)                    size: 4675 bytes.
+Package epstopdf Info: Output file is already uptodate.
 
 <tabfig/evstu_snap_p_tot_one_yrcfcttrunor_5_3-eps-converted-to.pdf, id=18, 397.
 485pt x 289.08pt>
@@ -1493,18 +1414,12 @@ Package epstopdf Info: Source file: <tabfig/evstu_snap_t_one_yrcf_5_3.eps>
 (epstopdf)                    size: 16805 bytes
 (epstopdf)             Output file: <tabfig/evstu_snap_t_one_yrcf_5_3-eps-conve
 rted-to.pdf>
-(epstopdf)                    date: 2019-07-29 10:39:45
-(epstopdf)                    size: 4683 bytes
+(epstopdf)                    date: 2019-08-23 09:24:38
+(epstopdf)                    size: 4668 bytes
 (epstopdf)             Command: <epstopdf --outfile=tabfig/evstu_snap_t_one_yrc
 f_5_3-eps-converted-to.pdf tabfig/evstu_snap_t_one_yrcf_5_3.eps>
 (epstopdf)             \includegraphics on input line 104.
-runsystem(epstopdf --outfile=tabfig/evstu_snap_t_one_yrcf_5_3-eps-converted-to.
-pdf tabfig/evstu_snap_t_one_yrcf_5_3.eps)...executed (allowed).
-
-Package epstopdf Info: Result file: <tabfig/evstu_snap_t_one_yrcf_5_3-eps-conve
-rted-to.pdf>
-(epstopdf)                    date: 2019-08-23 09:24:38
-(epstopdf)                    size: 4668 bytes.
+Package epstopdf Info: Output file is already uptodate.
 
 <tabfig/evstu_snap_t_one_yrcf_5_3-eps-converted-to.pdf, id=19, 397.485pt x 289.
 08pt>
@@ -1519,18 +1434,12 @@ Package epstopdf Info: Source file: <tabfig/evstu_snap_t_one_yrcfsttr_5_3.eps>
 (epstopdf)                    size: 16811 bytes
 (epstopdf)             Output file: <tabfig/evstu_snap_t_one_yrcfsttr_5_3-eps-c
 onverted-to.pdf>
-(epstopdf)                    date: 2019-07-29 10:39:46
-(epstopdf)                    size: 4687 bytes
+(epstopdf)                    date: 2019-08-23 09:24:38
+(epstopdf)                    size: 4686 bytes
 (epstopdf)             Command: <epstopdf --outfile=tabfig/evstu_snap_t_one_yrc
 fsttr_5_3-eps-converted-to.pdf tabfig/evstu_snap_t_one_yrcfsttr_5_3.eps>
 (epstopdf)             \includegraphics on input line 104.
-runsystem(epstopdf --outfile=tabfig/evstu_snap_t_one_yrcfsttr_5_3-eps-converted
--to.pdf tabfig/evstu_snap_t_one_yrcfsttr_5_3.eps)...executed (allowed).
-
-Package epstopdf Info: Result file: <tabfig/evstu_snap_t_one_yrcfsttr_5_3-eps-c
-onverted-to.pdf>
-(epstopdf)                    date: 2019-08-23 09:24:38
-(epstopdf)                    size: 4686 bytes.
+Package epstopdf Info: Output file is already uptodate.
 
 <tabfig/evstu_snap_t_one_yrcfsttr_5_3-eps-converted-to.pdf, id=20, 397.485pt x 
 289.08pt>
@@ -1546,18 +1455,12 @@ Package epstopdf Info: Source file: <tabfig/evstu_snap_t_one_yrcfcttru_5_3.eps>
 (epstopdf)                    size: 17231 bytes
 (epstopdf)             Output file: <tabfig/evstu_snap_t_one_yrcfcttru_5_3-eps-
 converted-to.pdf>
-(epstopdf)                    date: 2019-07-29 10:39:48
-(epstopdf)                    size: 4694 bytes
+(epstopdf)                    date: 2019-08-23 09:24:39
+(epstopdf)                    size: 4715 bytes
 (epstopdf)             Command: <epstopdf --outfile=tabfig/evstu_snap_t_one_yrc
 fcttru_5_3-eps-converted-to.pdf tabfig/evstu_snap_t_one_yrcfcttru_5_3.eps>
 (epstopdf)             \includegraphics on input line 106.
-runsystem(epstopdf --outfile=tabfig/evstu_snap_t_one_yrcfcttru_5_3-eps-converte
-d-to.pdf tabfig/evstu_snap_t_one_yrcfcttru_5_3.eps)...executed (allowed).
-
-Package epstopdf Info: Result file: <tabfig/evstu_snap_t_one_yrcfcttru_5_3-eps-
-converted-to.pdf>
-(epstopdf)                    date: 2019-08-23 09:24:39
-(epstopdf)                    size: 4715 bytes.
+Package epstopdf Info: Output file is already uptodate.
 
 <tabfig/evstu_snap_t_one_yrcfcttru_5_3-eps-converted-to.pdf, id=21, 397.485pt x
  289.08pt>
@@ -1596,19 +1499,13 @@ ps>
 (epstopdf)                    size: 16377 bytes
 (epstopdf)             Output file: <tabfig/evstu_snap_t_one_yrcfcttrunor_5_3-e
 ps-converted-to.pdf>
-(epstopdf)                    date: 2019-07-29 10:39:52
-(epstopdf)                    size: 4672 bytes
+(epstopdf)                    date: 2019-08-23 09:24:39
+(epstopdf)                    size: 4679 bytes
 (epstopdf)             Command: <epstopdf --outfile=tabfig/evstu_snap_t_one_yrc
 fcttrunor_5_3-eps-converted-to.pdf tabfig/evstu_snap_t_one_yrcfcttrunor_5_3.eps
 >
 (epstopdf)             \includegraphics on input line 108.
-runsystem(epstopdf --outfile=tabfig/evstu_snap_t_one_yrcfcttrunor_5_3-eps-conve
-rted-to.pdf tabfig/evstu_snap_t_one_yrcfcttrunor_5_3.eps)...executed (allowed).
-
-Package epstopdf Info: Result file: <tabfig/evstu_snap_t_one_yrcfcttrunor_5_3-e
-ps-converted-to.pdf>
-(epstopdf)                    date: 2019-08-23 09:24:39
-(epstopdf)                    size: 4679 bytes.
+Package epstopdf Info: Output file is already uptodate.
 
 <tabfig/evstu_snap_t_one_yrcfcttrunor_5_3-eps-converted-to.pdf, id=23, 397.485p
 t x 289.08pt>
@@ -2016,60 +1913,60 @@ Package atveryend Info: Empty hook `BeforeClearDocument' on input line 161.
 [1
 
 {C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <C:/Users/mgrosz/Documents
-/GitHub/snapapp/output/tabfig/rolloutgraph-eps-converted-to.pdf>] [2 <C:/Users/
-mgrosz/Documents/GitHub/snapapp/output/tabfig/evstu_bea_snap_one_yrcf_5_3-eps-c
-onverted-to.pdf> <C:/Users/mgrosz/Documents/GitHub/snapapp/output/tabfig/evstu_
-bea_snap_one_yrcfsttr_5_3-eps-converted-to.pdf> <C:/Users/mgrosz/Documents/GitH
-ub/snapapp/output/tabfig/evstu_bea_snap_one_yrcfcttru_5_3-eps-converted-to.pdf>
- <C:/Users/mgrosz/Documents/GitHub/snapapp/output/tabfig/evstu_bea_snap_total_p
-op_yrcfcttru_5_3-eps-converted-to.pdf> <C:/Users/mgrosz/Documents/GitHub/snapap
-p/output/tabfig/evstu_bea_snap_one_yrcfcttrunor_5_3-eps-converted-to.pdf>]
-[3 <C:/Users/mgrosz/Documents/GitHub/snapapp/output/tabfig/evstu_snap_h_tot_one
-_yrcf_5_3-eps-converted-to.pdf> <C:/Users/mgrosz/Documents/GitHub/snapapp/outpu
-t/tabfig/evstu_snap_h_tot_one_yrcfsttr_5_3-eps-converted-to.pdf> <C:/Users/mgro
-sz/Documents/GitHub/snapapp/output/tabfig/evstu_snap_h_tot_one_yrcfcttru_5_3-ep
-s-converted-to.pdf> <C:/Users/mgrosz/Documents/GitHub/snapapp/output/tabfig/evs
-tu_snap_h_tot_total_pop_yrcfcttru_5_3-eps-converted-to.pdf> <C:/Users/mgrosz/Do
-cuments/GitHub/snapapp/output/tabfig/evstu_snap_h_tot_one_yrcfcttrunor_5_3-eps-
-converted-to.pdf>] [4 <C:/Users/mgrosz/Documents/GitHub/snapapp/output/tabfig/e
-vstu_snap_p_tot_one_yrcf_5_3-eps-converted-to.pdf> <C:/Users/mgrosz/Documents/G
-itHub/snapapp/output/tabfig/evstu_snap_p_tot_one_yrcfsttr_5_3-eps-converted-to.
-pdf> <C:/Users/mgrosz/Documents/GitHub/snapapp/output/tabfig/evstu_snap_p_tot_o
-ne_yrcfcttru_5_3-eps-converted-to.pdf> <C:/Users/mgrosz/Documents/GitHub/snapap
-p/output/tabfig/evstu_snap_p_tot_total_pop_yrcfcttru_5_3-eps-converted-to.pdf> 
-<C:/Users/mgrosz/Documents/GitHub/snapapp/output/tabfig/evstu_snap_p_tot_one_yr
-cfcttrunor_5_3-eps-converted-to.pdf>] [5 <C:/Users/mgrosz/Documents/GitHub/snap
-app/output/tabfig/evstu_snap_t_one_yrcf_5_3-eps-converted-to.pdf> <C:/Users/mgr
-osz/Documents/GitHub/snapapp/output/tabfig/evstu_snap_t_one_yrcfsttr_5_3-eps-co
-nverted-to.pdf> <C:/Users/mgrosz/Documents/GitHub/snapapp/output/tabfig/evstu_s
-nap_t_one_yrcfcttru_5_3-eps-converted-to.pdf> <C:/Users/mgrosz/Documents/GitHub
-/snapapp/output/tabfig/evstu_snap_t_total_pop_yrcfcttru_5_3-eps-converted-to.pd
-f> <C:/Users/mgrosz/Documents/GitHub/snapapp/output/tabfig/evstu_snap_t_one_yrc
-fcttrunor_5_3-eps-converted-to.pdf>] [6 <C:/Users/mgrosz/Documents/GitHub/snapa
-pp/output/tabfig/evstu_size1_bea_snap_one_yrcfcttr_5_3-eps-converted-to.pdf> <C
-:/Users/mgrosz/Documents/GitHub/snapapp/output/tabfig/evstu_size2_bea_snap_one_
-yrcfcttr_5_3-eps-converted-to.pdf> <C:/Users/mgrosz/Documents/GitHub/snapapp/ou
-tput/tabfig/evstu_size3_bea_snap_one_yrcfcttr_5_3-eps-converted-to.pdf> <C:/Use
-rs/mgrosz/Documents/GitHub/snapapp/output/tabfig/evstu_size4_bea_snap_one_yrcfc
-ttr_5_3-eps-converted-to.pdf>] [7 <C:/Users/mgrosz/Documents/GitHub/snapapp/out
-put/tabfig/evstu_size1_snap_h_tot_one_yrcfcttr_5_3-eps-converted-to.pdf> <C:/Us
-ers/mgrosz/Documents/GitHub/snapapp/output/tabfig/evstu_size2_snap_h_tot_one_yr
-cfcttr_5_3-eps-converted-to.pdf> <C:/Users/mgrosz/Documents/GitHub/snapapp/outp
-ut/tabfig/evstu_size3_snap_h_tot_one_yrcfcttr_5_3-eps-converted-to.pdf> <C:/Use
-rs/mgrosz/Documents/GitHub/snapapp/output/tabfig/evstu_size4_snap_h_tot_one_yrc
-fcttr_5_3-eps-converted-to.pdf>] [8 <C:/Users/mgrosz/Documents/GitHub/snapapp/o
-utput/tabfig/evstu_size1_snap_p_tot_one_yrcfcttr_5_3-eps-converted-to.pdf> <C:/
-Users/mgrosz/Documents/GitHub/snapapp/output/tabfig/evstu_size2_snap_p_tot_one_
-yrcfcttr_5_3-eps-converted-to.pdf> <C:/Users/mgrosz/Documents/GitHub/snapapp/ou
-tput/tabfig/evstu_size3_snap_p_tot_one_yrcfcttr_5_3-eps-converted-to.pdf> <C:/U
-sers/mgrosz/Documents/GitHub/snapapp/output/tabfig/evstu_size4_snap_p_tot_one_y
-rcfcttr_5_3-eps-converted-to.pdf>] [9 <C:/Users/mgrosz/Documents/GitHub/snapapp
-/output/tabfig/evstu_size1_snap_t_one_yrcfcttr_5_3-eps-converted-to.pdf> <C:/Us
-ers/mgrosz/Documents/GitHub/snapapp/output/tabfig/evstu_size2_snap_t_one_yrcfct
-tr_5_3-eps-converted-to.pdf> <C:/Users/mgrosz/Documents/GitHub/snapapp/output/t
-abfig/evstu_size3_snap_t_one_yrcfcttr_5_3-eps-converted-to.pdf> <C:/Users/mgros
-z/Documents/GitHub/snapapp/output/tabfig/evstu_size4_snap_t_one_yrcfcttr_5_3-ep
-s-converted-to.pdf>]
+/GitHub/snapapp/output/tabfig/rolloutgraph_share-eps-converted-to.pdf>]
+[2 <C:/Users/mgrosz/Documents/GitHub/snapapp/output/tabfig/evstu_bea_snap_one_y
+rcf_5_3-eps-converted-to.pdf> <C:/Users/mgrosz/Documents/GitHub/snapapp/output/
+tabfig/evstu_bea_snap_one_yrcfsttr_5_3-eps-converted-to.pdf> <C:/Users/mgrosz/D
+ocuments/GitHub/snapapp/output/tabfig/evstu_bea_snap_one_yrcfcttru_5_3-eps-conv
+erted-to.pdf> <C:/Users/mgrosz/Documents/GitHub/snapapp/output/tabfig/evstu_bea
+_snap_total_pop_yrcfcttru_5_3-eps-converted-to.pdf> <C:/Users/mgrosz/Documents/
+GitHub/snapapp/output/tabfig/evstu_bea_snap_one_yrcfcttrunor_5_3-eps-converted-
+to.pdf>] [3 <C:/Users/mgrosz/Documents/GitHub/snapapp/output/tabfig/evstu_snap_
+h_tot_one_yrcf_5_3-eps-converted-to.pdf> <C:/Users/mgrosz/Documents/GitHub/snap
+app/output/tabfig/evstu_snap_h_tot_one_yrcfsttr_5_3-eps-converted-to.pdf> <C:/U
+sers/mgrosz/Documents/GitHub/snapapp/output/tabfig/evstu_snap_h_tot_one_yrcfctt
+ru_5_3-eps-converted-to.pdf> <C:/Users/mgrosz/Documents/GitHub/snapapp/output/t
+abfig/evstu_snap_h_tot_total_pop_yrcfcttru_5_3-eps-converted-to.pdf> <C:/Users/
+mgrosz/Documents/GitHub/snapapp/output/tabfig/evstu_snap_h_tot_one_yrcfcttrunor
+_5_3-eps-converted-to.pdf>] [4 <C:/Users/mgrosz/Documents/GitHub/snapapp/output
+/tabfig/evstu_snap_p_tot_one_yrcf_5_3-eps-converted-to.pdf> <C:/Users/mgrosz/Do
+cuments/GitHub/snapapp/output/tabfig/evstu_snap_p_tot_one_yrcfsttr_5_3-eps-conv
+erted-to.pdf> <C:/Users/mgrosz/Documents/GitHub/snapapp/output/tabfig/evstu_sna
+p_p_tot_one_yrcfcttru_5_3-eps-converted-to.pdf> <C:/Users/mgrosz/Documents/GitH
+ub/snapapp/output/tabfig/evstu_snap_p_tot_total_pop_yrcfcttru_5_3-eps-converted
+-to.pdf> <C:/Users/mgrosz/Documents/GitHub/snapapp/output/tabfig/evstu_snap_p_t
+ot_one_yrcfcttrunor_5_3-eps-converted-to.pdf>] [5 <C:/Users/mgrosz/Documents/Gi
+tHub/snapapp/output/tabfig/evstu_snap_t_one_yrcf_5_3-eps-converted-to.pdf> <C:/
+Users/mgrosz/Documents/GitHub/snapapp/output/tabfig/evstu_snap_t_one_yrcfsttr_5
+_3-eps-converted-to.pdf> <C:/Users/mgrosz/Documents/GitHub/snapapp/output/tabfi
+g/evstu_snap_t_one_yrcfcttru_5_3-eps-converted-to.pdf> <C:/Users/mgrosz/Documen
+ts/GitHub/snapapp/output/tabfig/evstu_snap_t_total_pop_yrcfcttru_5_3-eps-conver
+ted-to.pdf> <C:/Users/mgrosz/Documents/GitHub/snapapp/output/tabfig/evstu_snap_
+t_one_yrcfcttrunor_5_3-eps-converted-to.pdf>] [6 <C:/Users/mgrosz/Documents/Git
+Hub/snapapp/output/tabfig/evstu_size1_bea_snap_one_yrcfcttr_5_3-eps-converted-t
+o.pdf> <C:/Users/mgrosz/Documents/GitHub/snapapp/output/tabfig/evstu_size2_bea_
+snap_one_yrcfcttr_5_3-eps-converted-to.pdf> <C:/Users/mgrosz/Documents/GitHub/s
+napapp/output/tabfig/evstu_size3_bea_snap_one_yrcfcttr_5_3-eps-converted-to.pdf
+> <C:/Users/mgrosz/Documents/GitHub/snapapp/output/tabfig/evstu_size4_bea_snap_
+one_yrcfcttr_5_3-eps-converted-to.pdf>] [7 <C:/Users/mgrosz/Documents/GitHub/sn
+apapp/output/tabfig/evstu_size1_snap_h_tot_one_yrcfcttr_5_3-eps-converted-to.pd
+f> <C:/Users/mgrosz/Documents/GitHub/snapapp/output/tabfig/evstu_size2_snap_h_t
+ot_one_yrcfcttr_5_3-eps-converted-to.pdf> <C:/Users/mgrosz/Documents/GitHub/sna
+papp/output/tabfig/evstu_size3_snap_h_tot_one_yrcfcttr_5_3-eps-converted-to.pdf
+> <C:/Users/mgrosz/Documents/GitHub/snapapp/output/tabfig/evstu_size4_snap_h_to
+t_one_yrcfcttr_5_3-eps-converted-to.pdf>] [8 <C:/Users/mgrosz/Documents/GitHub/
+snapapp/output/tabfig/evstu_size1_snap_p_tot_one_yrcfcttr_5_3-eps-converted-to.
+pdf> <C:/Users/mgrosz/Documents/GitHub/snapapp/output/tabfig/evstu_size2_snap_p
+_tot_one_yrcfcttr_5_3-eps-converted-to.pdf> <C:/Users/mgrosz/Documents/GitHub/s
+napapp/output/tabfig/evstu_size3_snap_p_tot_one_yrcfcttr_5_3-eps-converted-to.p
+df> <C:/Users/mgrosz/Documents/GitHub/snapapp/output/tabfig/evstu_size4_snap_p_
+tot_one_yrcfcttr_5_3-eps-converted-to.pdf>] [9 <C:/Users/mgrosz/Documents/GitHu
+b/snapapp/output/tabfig/evstu_size1_snap_t_one_yrcfcttr_5_3-eps-converted-to.pd
+f> <C:/Users/mgrosz/Documents/GitHub/snapapp/output/tabfig/evstu_size2_snap_t_o
+ne_yrcfcttr_5_3-eps-converted-to.pdf> <C:/Users/mgrosz/Documents/GitHub/snapapp
+/output/tabfig/evstu_size3_snap_t_one_yrcfcttr_5_3-eps-converted-to.pdf> <C:/Us
+ers/mgrosz/Documents/GitHub/snapapp/output/tabfig/evstu_size4_snap_t_one_yrcfct
+tr_5_3-eps-converted-to.pdf>]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 161.
 
 (C:\Users\mgrosz\Documents\GitHub\snapapp\output\snapapp_tabfig.aux)
@@ -2080,7 +1977,7 @@ Package rerunfilecheck Info: File `snapapp_tabfig.out' has not changed.
  ) 
 Here is how much of TeX's memory you used:
  12855 strings out of 494045
- 201564 string characters out of 3145966
+ 201594 string characters out of 3145966
  317305 words of memory out of 3000000
  15828 multiletter control sequences out of 15000+200000
  45123 words of font info for 120 fonts, out of 3000000 for 9000
@@ -2090,7 +1987,7 @@ Here is how much of TeX's memory you used:
 }{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program
  Files (x86)/MiKTeX 2.9/fonts/type1/public/kpfonts/jkpmn8a.pfb><C:/Program File
 s (x86)/MiKTeX 2.9/fonts/type1/public/kpfonts/jkpmne.pfb>
-Output written on snapapp_tabfig.pdf (9 pages, 142690 bytes).
+Output written on snapapp_tabfig.pdf (9 pages, 142706 bytes).
 PDF statistics:
  250 PDF objects out of 1000 (max. 8388607)
  18 named destinations out of 1000 (max. 500000)
