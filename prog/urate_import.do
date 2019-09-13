@@ -5,7 +5,10 @@ Data creation
 set more off ;
 include "./config.do" ;
 
+/*************************************
+SOURCE: https://www.fns.usda.gov/sites/default/files/resource-files/SNAP-FNS388A-9.zip
 
+***************************************/
 local snapfiles: dir "$rawdat/rawsnap" files "*.xls", respectcase ;
 local x=0 ;  
 foreach file in `snapfiles' { ; 
@@ -52,6 +55,12 @@ reshape wide snap_*, i(fips year) j(month) ;
 tempfile snap_counts; 
 save `snap_counts', replace; 
 
+
+/******************************************
+SOURCE: 
+https://download.bls.gov/pub/time.series/la/
+FILE: la.data.64.County
+***********************************************/
 import delimited "$rawdat/Laus_County.txt", delimiter(tab) clear  ; 
 
 gen fips = substr(series_id,6,5);
@@ -76,6 +85,10 @@ save `urates', replace;
 
 /* save data here */
 
+/*******************************************
+SOURCE: https://seer.cancer.gov/popdata/yr1990_2017.19ages/us.1990_2017.19ages.adjusted.txt.gz
+**********************************************/
+
 use "$rawdat/usrace19ages.dta", clear ; 
 
 bys county year: egen total_pop = sum(pop) ;
@@ -97,6 +110,11 @@ rename county fips ;
 tempfile population ;
 save `population', replace; 
 
+/*************************************
+SOURCE: https://www.ers.usda.gov/data-products/snap-policy-data-sets
+FILE: SNAP POLICY DATABASE 
+*************************************/
+
 use "$rawdat/snap_policy.dta", clear ; 
 	
 keep state_fips year month oapp ; 
@@ -112,6 +130,7 @@ save `policy', replace ;
 /************************************************
 Now we are going to merge these data together
 *************************************************/
+
 
 use `population', clear ; 
 
