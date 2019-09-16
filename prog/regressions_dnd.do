@@ -21,6 +21,9 @@ forvalues i = 1/`numcty' {;
 	gen ctytrend`i' = (cty`i'==1)*(year-2000) ;
 };
 
+forvalues i=1/56{ ; 
+	gen statetr`i'=(state_==`i')*(year-2000) ; 
+} ; 
 /**********************************************/
 
 foreach pop in 	0_9 10_19 20_29 30_39 40_49 50_59 60p { ;
@@ -45,15 +48,22 @@ Second, setup of outcome variables
 *****************************************/
 gen sample_all = 1 ; 
 gen sample_adopters = onlineapp_ever ; 
+gen sample_wholestate = flag_allstate ; 
+
 
 foreach var of varlist snap* { ; 
 	gen log_`var' = log(`var') ;
 };
 
-foreach h in all adopters { ; 
+foreach h in all adopters wholestate { ;
+	eststo clear ; 
+	local i = 1 ;
 	foreach var of varlist snap*12 { ; 
-		areg log_`var' internet_app `controls' i.year 
+		eststo t_`h'_`i': areg log_`var' internet_app `controls' i.year statetr* 
 			 if year> 1996 & sample_`h'== 1, 
 			cluster(state_fips) absorb(fips); 	
+		local i = `i' + 1 ; 
 	} ; 
+	esttab t* using "$results/ddreg_`h'.tex", `theusual' se prehead(" ") 
+		prefoot(" ") posthead(" ") postfoot(" ") stat(N r2) keep(internet_app);
 } ; 
